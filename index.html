@@ -8,48 +8,66 @@
     <meta content="My Profile" name="description">
     <meta content="width=device-width initial-scale=1" name="viewport">
     <meta content="red" name="theme-color">
+    <link href="assets/style/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Zen+Antique+Soft&display=swap" rel="stylesheet">
+    <style>
+        .homepage{
+            width: 100%;
+            height: 800px;
+            background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(assets/images/Myphoto2.jpg);
+        }
+    </style>
 </head>
 <body>
 
 
 <!-- MENU BAR -->
 <header>
-
-    <nav>
-        <h2>Dhanajaya</h2>
-        <a href="#home">HOME</a>
-        <a href="#about">ABOUT</a>
-        <a href="#education">EDUCATION</a>
-        <a href="#skills">SKILLS</a>
-        <a href="#projects">PROJECT</a>
-        <a href="#contact">CONTACT</a>
+    <section class="top-bar">
+        <nav>
+            <a href="index.html"><img src="assets/images/myName.png"></a>
+        <div class="nav-links">
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#projects">PROJECT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        </div>
     </nav>
 
+    </section>
 </header>
 
 <main>
     <!-- HOME PAGE -->
-    <section>
-        <div>
-            <a><img src="assets/images/Myphoto2.jpg" alt="My Photo" width="700"></a>
-        <h1>Iroshan Dhanajaya</h1>
-        <h5>Full Stack Developer</h5>
-            <button>Hire Me</button>
-        <nav>
+    <section class="homepage">
+        <div class="text-box">
+            <h1>Iroshan Dhanajaya</h1>
+            <h5>Full Stack Developer</h5>
+            <a href="" class="hire-me">Hire Me</a>
+              </div>
+        <div class="homepage-socialimage">
             <a href="https://www.facebook.com/profile.php?id=100074329315171"><img src="assets/images/facebook (1).png" alt="Facebook" width="45"></a>
             <a href="https://www.instagram.com/iroshan_d_/"><img src="assets/images/instagram.png" alt="Instergram" width="45"></a>
             <a href=""><img src="assets/images/twitter.png" alt="twitter" width="45"></a>
             <a href=""><img src="assets/images/gmail.png" alt="Gmaill" width="45"></a>
             <a href="https://github.com/IroshanDhananjaya"><img src="assets/images/github.png" alt="Github" width="45"></a>
             <a href="https://www.linkedin.com/in/iroshan-dhananjaya-3a3bba224/"><img src="assets/images/linkedin%20(1).png" alt="Github" width="50"></a>
-        </nav>
         </div>
+
     </section>
     <!-- ABOUT ME -->
     <section>
-        <div>
-        <a href=""><img src="assets/images/MyPhoto1.jpg" alt="My Image"  width="500"></a>
+        <div class="about-photo">
+            <a href=""><img src="assets/images/MyPhoto1.jpg" alt="My Image"  width="650"></a>
         </div>
+    </section>
+    <section class="about-content">
         <aside>
             <dfn id ="about"><h2><b>About Me !</b></h2></dfn>
             <h4>Designer & Developer</h4>
@@ -63,23 +81,35 @@
             <h2 data-aos="fade-up" data-aos-delay="500"> Thank you</h2>
         </aside>
     </section>
+
     <!-- EDUCATION -->
-    <section>
+    <section class="education">
         <dfn id="education"><h2>EDUCATION </h2></dfn>
         <aside>
+            <h3>Institute Of Software Engineer (IJSE)</h3>
+            <p>I am studying a course on software engineering</p>
 
+            <h3>R/ Gankanada Central Collage</h3>
+            <p>Educated at this school from grade six to advanced level</p>
+
+            <h3>R/Vidyakara Isuru Vidyalaya</h3>
+            <p>Educated at this school from grade 0ne to grade five</p>
         </aside>
     </section>
     <!-- PROGRAMING SKILLS -->
     <section>
         <dfn id="skills"> <h2>PROGRAMING SKILLS</h2></dfn>
-        <aside>
             <p>I`m still learning Software Engineering<br>
                 So I was slowly improving some of my<br>
                 skills</p>
 
-            <a><img src="assets/images/Skills.png"></a>>
-        </aside>
+            <a><img src="assets/images/hibernate.png" alt="hibernate logo" width="100"></a>
+            <a><img src="assets/images/java.png" alt="java logo" width="100"></a>
+            <a><img src="assets/images/mysql.png" alt="mysql logo" width="100"></a>
+            <a><img src="assets/images/html.png" alt="html logo" width="100"></a>
+            <a><img src="assets/images/css.png" alt="css logo" width="100"></a>
+            <a><img src="assets/images/nodejs%20(1).png" alt="nodejs logo" width="100"></a>
+
 
     </section>
     <!-- PROJECT I HAVE DONE -->
