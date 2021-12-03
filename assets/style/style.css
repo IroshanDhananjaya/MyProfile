@@ -2,6 +2,23 @@
     margin: 0px;
     padding: 0px;
 }
+.circle-topic{
+    height: 80px;
+    width: 80px;
+    margin-left: 60px;
+    background-color: #000000;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+.circle-topic1{
+    height: 80px;
+    width: 80px;
+    margin-left: 80px;
+    background-color: #37ff00;
+    border-radius: 50%;
+    margin-top: -80px;
+}
+
 
 /*--------------Top Bar----------------------------*/
 .top-bar{
@@ -70,7 +87,7 @@ nav img{
     width: 90%;
     color: ghostwhite;
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
@@ -120,19 +137,53 @@ nav img{
 
 .about-photo a img{
     float: left;
-    margin-top: 70px;
+    margin-top: 10px;
     margin-left: 30px;
     border-radius: 150px;
 }
-.about-content{
-    margin-top: 60px;
-    margin-left: 800px;
-}
-.about-content aside dfn h2 b {
-    font-size: 50px;
+.about-content {
+    margin-top: 50px;
+    margin-left: 850px;
 }
 
+
+.about-content p{
+    font-size: 20px;
+}
 /*-----------------------education---------------------------------*/
-.education{
+.education-topic{
+    margin-top: -70px;
+    margin-left: 180px;
+}
 
+.vl{
+    border-left: 6px solid green;
+    height: 550px;
+    border-radius: 15px;
+    margin-left: 50%
+}
+.circle {
+    height: 30px;
+    width: 30px;
+    margin-left: -17px;
+    background-color: #555;
+    border-radius: 50%;
+    margin-top: 10px;
+
+}
+.circle1{
+    height: 30px;
+    width: 30px;
+    margin-left: -17px;
+    background-color: #555;
+    border-radius: 50%;
+    margin-top: 155px;
+}
+.circle2{
+    height: 30px;
+    width: 30px;
+    margin-left: -17px;
+    background-color: #555;
+    border-radius: 50%;
+    margin-top: 155px;
 }
