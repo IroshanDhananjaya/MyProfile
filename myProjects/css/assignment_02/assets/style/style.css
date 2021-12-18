@@ -64,7 +64,7 @@ body>main>aside>nav{
 }
 
 body>main>aside>nav>ul>li{
-    font-size: 23px;
+    font-size: 18px;
     font-family: 'Barlow Condensed', sans-serif;
     margin-top: 30px;
     color: white;
@@ -119,4 +119,7 @@ body>footer{
     height: 30px;
     text-align: center;
     padding-top: 10px;
+}
+.fas{
+    margin: 8px;
 }
