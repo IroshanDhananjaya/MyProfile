@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyProjects</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kufam&family=Nosifer&family=Prompt&display=swap" rel="stylesheet">
+
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+
+    }
+    body>header{
+        height: 300px;
+        background-image: linear-gradient(rgba(4, 9, 30, 0.73), rgba(4, 9, 30, 0.72)),url("assets/images/3632854.jpg");
+        border-bottom-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    body>header h1{
+        color: white;
+        font-size: 70px;
+    }
+    .course-work-area{
+        position: relative;
+        height: 400px;
+        top:30px
+    }
+    .course-work-area div{
+        position: relative;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .course-work-area>div>h1{
+        position: absolute;
+        top: 0;
+        font-size: 50px;
+        border-bottom: 5px solid green;
+    }
+    .course-work-area>div>div{
+        border: 2px solid #3b3939;
+       /* display: flex;
+        justify-content: center;
+        align-items: center;*/
+        width: 300px;
+        height: 200px;
+        text-align: center;
+    }
+    .course-work-area>div>div>h1{
+        position: absolute;
+        color: #000000;
+        font-size: 20px;
+        top: 50px;
+        font-family: 'Kufam', sans-serif;
+        text-align: center;
+    }
+    .course-work-area>div>div>p{
+        position: absolute;
+        color: #4c4a4a;
+        font-size: 18px;
+        bottom:35%;
+        font-family: 'Kufam', sans-serif;
+        text-align: center;
+    }
+
+    .assignment-area{
+        position: relative;
+        height: 400px;
+        top:30px
+    }
+    .assignment-area div{
+        position: relative;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .assignment-area>div>h1{
+        position: absolute;
+        top: 0;
+        font-size: 50px;
+        border-bottom: 5px solid green;
+    }
+    .assignment-area>div>div{
+        border: 2px solid #3b3939;
+        top: 0;
+        /* display: flex;
+         justify-content: center;
+         align-items: center;*/
+        width: 300px;
+        height: 200px;
+        text-align: center;
+    }
+    .assignment-area>div>div>h1{
+        position: absolute;
+        color: #000000;
+        font-size: 20px;
+        top: 50px;
+        font-family: 'Kufam', sans-serif;
+        text-align: center;
+    }
+    .assignment-area>div>div>p{
+        position: absolute;
+        color: #4c4a4a;
+        font-size: 18px;
+        bottom: 35%;
+        font-family: 'Kufam', sans-serif;
+        text-align: center;
+    }
+    .assignment-area>div:nth-child(2)>div{
+        position: relative;
+        top: -100px;
+    }
+    .assignment-area>div:nth-child(3)>div{
+        position: relative;
+        top: -200px;
+    }
+    .load-moreProject{
+        position: absolute;
+        bottom: -45px;
+    }
+    .load-moreProject>a{
+        position: relative;
+        text-decoration: none;
+        display: inline-block;
+        padding: 8px 20px;
+        color: #000000;
+        background-color: transparent;
+        border: 2px solid crimson;
+        font-size: 13px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        margin-top: 30px;
+        transition-property: background-color, color;
+        bottom: 0px;
+    }
+    .load-moreProject>a:hover{
+        background-color: crimson;
+    }
+    .footer{
+        border: 3px solid red;
+        position: absolute;
+    }
+
+</style>
+<body>
+<header>
+    <section>
+        <h1>Projects I Have Do</h1>
+    </section>
+</header>
+<main>
+
+
+    <section class="course-work-area">
+        <div>
+            <h1>Course Work</h1>
+            <diV>
+                <h1>Sipsewana Institute</h1>
+                <p>This is a hibernate project</p>
+                <div class="load-moreProject">
+                    <a href="">View Source</a>
+                </div>
+            </diV>
+            <diV><h1>Super Market</h1>
+                <p>This project using Layerd Architecher</p>
+                <div class="load-moreProject">
+                    <a href="">View Source</a>
+                </div>
+            </diV>
+            <diV><h1>Hotel Managemet System</h1>
+                <p>This is a UI Design</p> <div class="load-moreProject">
+                    <a href="">View Source</a>
+                </div></diV>
+
+            <!--<diV><h1>Sipsewana Institute</h1>
+                <p>This is a hibernate project</p></diV>-->
+        </div>
+    </section>
+    <section class="assignment-area">
+        <div>
+            <h1>Assignment</h1>
+            <diV><h1>Assignment 01</h1> <p>Css Assignmet</p>
+                <div class="load-moreProject">
+                    <a href="">View Source</a>
+                </div>
+            </diV>
+            <diV><h1>Assignment 02</h1> <p>Css Assignmet</p>
+                <div class="load-moreProject">
+                    <a href="">View Source</a>
+                </div>
+            </diV>
+            <diV><h1>Assignment 03</h1> <p>Css Assignmet</p>
+                <div class="load-moreProject">
+                    <a href="">View Source</a>
+                </div>
+            </diV>
+            <diV><h1>Assignment 04</h1> <p>Css Assignmet</p>
+                <div class="load-moreProject">
+                    <a href="">View Source</a>
+                </div>
+            </diV>
+        </div>
+        <div>
+            <diV><h1>Assignment 05</h1> <p>Css Assignmet (Responsive)</p>
+                <div class="load-moreProject">
+                    <a href="">View Source</a>
+                </div>
+            </diV>
+            <diV><h1>Assignment 06</h1> <p>Css Assignmet (Taransitions)</p>
+                <div class="load-moreProject">
+                    <a href="">View Source</a>
+                </div>
+            </diV>
+            <diV><h1>Assignment 07</h1> <p>Css Assignmet (Taransitions)</p>
+                <div class="load-moreProject">
+                    <a href="">View Source</a>
+                </div>
+            </diV>
+            <diV><h1>Assignment 08</h1> <p>Css Assignmet (Animations)</p>
+                <div class="load-moreProject">
+                    <a href="">View Source</a>
+                </div>
+            </diV>
+        </div>
+        <div>
+            <diV><h1>Assignment 09</h1> <p>Css Assignmet (Animations)</p>
+                <div class="load-moreProject">
+                    <a href="">View Source</a>
+                </div>
+            </diV>
+            <diV><h1>Assignment 10</h1> <p>Css Assignmet ((Animations)</p>
+                <div class="load-moreProject">
+                    <a href="">View Source</a>
+                </div>
+            </diV>
+            <diV><h1>Assignment 11</h1> <p>Css Assignmet (Animations)</p>
+                <div class="load-moreProject">
+                    <a href="">View Source</a>
+                </div>
+            </diV>
+        </div>
+    </section>
+</main>
+
+
+</body>
+</html>
