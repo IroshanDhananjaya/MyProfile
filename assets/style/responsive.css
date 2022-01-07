@@ -33,8 +33,10 @@
       background-image: none;
     }
     .about-section{
-
         width: 275%;
+    }
+    .inner-container{
+        right: 61px;
     }
     .skill-area {
         background-color: #000000;
