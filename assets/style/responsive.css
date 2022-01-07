@@ -29,6 +29,7 @@
     .homepage{
         width: 285%;
     }
+    /*-----------about--------------*/
     .about-section{
       background-image: none;
     }
@@ -38,6 +39,12 @@
     .inner-container{
         right: 61px;
     }
+    /*----------Education----------------------*/
+    .education{
+        min-height: 363px;
+        width: 288%;
+    }
+
     .skill-area {
         background-color: #000000;
         position:relative ;
