@@ -32,6 +32,10 @@
     .about-section{
       background-image: none;
     }
+    .about-section{
+
+        width: 275%;
+    }
     .skill-area {
         background-color: #000000;
         position:relative ;
