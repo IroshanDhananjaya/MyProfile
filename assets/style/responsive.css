@@ -1,0 +1,74 @@
+
+@media all and (max-width: 1114px) {
+    .nav-links ul li a{
+      display: none;
+    }
+    .nav-links .menu_icon{
+        position: relative;
+        width: 58px;
+        height: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        right: 0px;
+
+    }
+    .about-section{
+        background-image: none;
+    }
+    .inner-container{
+        width: 60%;
+    }
+    .nav-links .menu_icon div{
+       border: 2px solid white;
+        width: 100%;
+    }
+}
+@media all and (max-width: 530px) {
+    .homepage .home-container{
+       left: 500px;
+    }
+    .about-section{
+      background-image: none;
+    }
+    .skill-area {
+        background-color: #000000;
+        position:relative ;
+        top: 40px;
+        left: 0px;
+        width: 100vw;
+        height: 1000px;
+    }
+    .skill-area div:nth-child(3){
+        position: absolute;
+        left: 0;
+        top:243px;
+    }
+    .skill-area div:nth-child(4){
+        position: absolute;
+        left: 240px;
+        top:243px;
+    }
+    .skill-area div:nth-child(5){
+        position: absolute;
+        left: 0;
+        top:485px;
+    }
+    .skill-area div:nth-child(6){
+        position: absolute;
+        left: 240px;
+        top:485px;
+    }
+    .skill-area div:nth-child(7){
+        position: absolute;
+        left: 0;
+        top:766px;
+    }
+    .skill-area div:nth-child(8){
+        position: absolute;
+        left: 240px;
+        top: 766px;
+    }
+
+}
