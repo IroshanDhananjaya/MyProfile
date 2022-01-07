@@ -44,11 +44,15 @@
         position: relative;
         min-height: 969px;
         width: 288%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+
     .education div:nth-child(2){
         position: absolute;
         top: 188px;
-        left:232px;
+
         width: 590px;
         height: 214px;
 
@@ -56,7 +60,7 @@
     .education div:nth-child(3){
         position: absolute;
         top: 466px;
-        left:232px;
+
         width: 590px;
         height: 214px;
 
@@ -64,7 +68,7 @@
     .education div:nth-child(4){
         position: absolute;
         top: 748px;
-        left:232px;
+
         width: 590px;
         height: 214px;
 
