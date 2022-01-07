@@ -41,9 +41,52 @@
     }
     /*----------Education----------------------*/
     .education{
-        min-height: 363px;
+        position: relative;
+        min-height: 969px;
         width: 288%;
     }
+    .education div:nth-child(2){
+        position: absolute;
+        top: 188px;
+        left:232px;
+        width: 590px;
+        height: 214px;
+
+    }
+    .education div:nth-child(3){
+        position: absolute;
+        top: 466px;
+        left:232px;
+        width: 590px;
+        height: 214px;
+
+    }
+    .education div:nth-child(4){
+        position: absolute;
+        top: 748px;
+        left:232px;
+        width: 590px;
+        height: 214px;
+
+    }
+    .education>div>h1{
+        font-size: 30px;
+    }
+    .education>div>h3{
+        position: absolute;
+        color: red;
+        top :60px;
+        font-family: 'Kufam', sans-serif;
+    }
+    .education>div>p{
+        position: absolute;
+        color: #4c4a4a;
+        font-size: 24px;
+        bottom: 30%;
+        font-family: 'Kufam', sans-serif;
+        text-align: center;
+    }
+
 
     .skill-area {
         width: 288vw;
