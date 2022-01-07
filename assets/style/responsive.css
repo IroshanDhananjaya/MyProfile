@@ -26,8 +26,8 @@
     }
 }
 @media all and (max-width: 530px) {
-    .homepage .home-container{
-       left: 500px;
+    .homepage{
+        width: 188%;
     }
     .about-section{
       background-image: none;

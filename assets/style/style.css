@@ -81,6 +81,7 @@ nav img{
 .homepage{
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../images/SeIMG.jpg);
     background-size: cover;
+    width: 100%;
     background-position:top center;
     position: relative;
     display: flex;
