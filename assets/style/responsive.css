@@ -27,7 +27,7 @@
 }
 @media all and (max-width: 530px) {
     .homepage{
-        width: 285%;
+        width: 288%;
     }
     /*-----------about--------------*/
     .about-section{
@@ -126,6 +126,39 @@
         position: absolute;
         left:726px;
         top: 533px;
+    }
+    /*------------------------Do Projects-------------------*/
+    .project-area{
+        width: 287%;
+        height: 906px;
+
+    }
+    .project-Container{
+        position: absolute;
+    }
+    .project-Container:nth-child(1){
+
+        left:57px;
+        top: 46px;
+    }
+
+    .project-Container:nth-child(2){
+
+        left:372px;
+        top: 46px;
+    }
+    .project-Container:nth-child(3){
+
+        left:693px;
+        top: 46px;
+    }
+    .load-moreProject{
+        left:473px
+    }
+
+    /*------------------------My Service-----------------------*/
+    .my-services{
+        width: 289%;
     }
 
 }
