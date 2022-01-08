@@ -164,5 +164,33 @@
     .contact-us{
         width: 288%;
     }
+    /*--------------footer-----------------------------*/
+    .footer-area{
+        width: 289%;
+    }.footer-area >h1{
+         color: white;
+         position: absolute;
+         top:10px;
+         left: 365px;
+         font-size: 40px;
+         font-family: 'Poppins', sans-serif
+     }
+    .footer-area>pre{
+        text-align: center;
+        position: absolute;
+        color: white;
+        top: 65px;
+        left: 418px;
+        font-size: 15px;
+    }
+    .footer-area>div{
+        position: absolute;
+        bottom: 60px;
+    }
+    .footer-area>h2{
+        position: absolute;
+        bottom: 10px;
+        color: white;
+    }
 
 }
