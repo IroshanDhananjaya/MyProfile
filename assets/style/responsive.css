@@ -33,7 +33,7 @@
 
     .home-container h1:nth-child(1){
 
-        top: 27px;
+        top: 136px;
         left: 900px;
         width: 500px;
         font-size: 60px;
@@ -48,7 +48,7 @@
 
     .home-container h1:nth-child(2){
         position: relative;
-        top: 42px;
+        top: 134px;
         left: 900px;
         width: 500px;
         font-size: 60px;
@@ -63,7 +63,7 @@
     }
     .home-container h1:nth-child(3){
         position: relative;
-        top: 64px;
+        top:133px;
         width: 100px;
         left: 900px;
         font-size: 60px;
@@ -81,7 +81,7 @@
     .btn-hire-me{
         position: relative;
         text-decoration: none;
-        top: 35px;
+        top: 121px;
         left: 900px;
         display: inline-block;
         padding: 10px 30px;
@@ -160,7 +160,7 @@
     .education{
         position: relative;
         min-height: 969px;
-        width: 288%;
+        width: 328%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -185,7 +185,6 @@
     .education div:nth-child(4){
         position: absolute;
         top: 748px;
-
         width: 590px;
         height: 214px;
 
@@ -210,7 +209,7 @@
 
 
     .skill-area {
-        width: 288vw;
+        width: 326vw;
         height: 848px;
         display: flex;
         justify-content: space-around;
@@ -249,7 +248,7 @@
     }*/
     /*------------------------Do Projects-------------------*/
     .project-area{
-        width: 287%;
+        width: 325%;
         height: 906px;
         display: flex;
         justify-content: space-around;
@@ -264,15 +263,29 @@
 
     /*------------------------My Service-----------------------*/
     .my-services{
-        width: 289%;
+        width: 328%;
     }
     /*-------------------------------CONTAC US-------------------*/
-    .contact-us{
-        width: 288%;
+    .contact-us {
+        width: 328%;
     }
+
+    .map{
+        display: none;
+    }
+    .contact-us{
+        height: 100%;
+    }
+    .contact-form-text{
+        height: 62px;
+    }
+    .contact-form-btn{
+        font-size:35px ;
+    }
+
     /*--------------footer-----------------------------*/
     .footer-area{
-        width: 289%;
+        width: 328%;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -301,3 +314,70 @@
     }*/
 
 }
+
+/*
+@media all and(max-width: 375px){
+    .home-container h1:nth-child(1){
+        top: 181px;
+        left: 900px;
+        width: 500px;
+        font-size: 60px;
+        color: white;
+        animation-name: home-content;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    .home-container h1:nth-child(2){
+        position: relative;
+        top: 180px;
+        left: 900px;
+        width: 500px;
+        font-size: 60px;
+        opacity: 0;
+        color: white;
+        animation-name:home-content;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    .home-container h1:nth-child(3){
+        position: relative;
+        top: 181px;
+        width: 100px;
+        left: 900px;
+        font-size: 60px;
+        opacity: 0;
+        color: #c92c03;
+        font-family: 'Kufam', sans-serif;
+        animation-name:home-content;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+
+    .btn-hire-me{
+        position: relative;
+        text-decoration: none;
+        top: 162px;
+        left: 900px;
+        display: inline-block;
+        padding: 10px 30px;
+        opacity: 0;
+        color: white;
+        background-color: transparent;
+        border: 2px
+        solid crimson;
+        font-size: 2rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        margin-top: 30px;
+        transition: 0.3s ease;
+        transition-property: background-color, color;
+        animation-name:home-content;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+
+    }
+}*/
