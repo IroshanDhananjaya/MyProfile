@@ -1,31 +1,29 @@
 
-@media all and (max-width: 1114px) {
-    .nav-links ul li a{
-      display: none;
-    }
-    .nav-links .menu_icon{
-        position: relative;
-        width: 58px;
-        height: 40px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        right: 0px;
-
-    }
-    .about-section{
-        background-image: none;
-    }
-    .inner-container{
-        width: 60%;
-    }
-    .nav-links .menu_icon div{
-       border: 2px solid white;
-        width: 100%;
-    }
-}
 @media all and (max-width: 1000px) {
+    .nav-links ul li a{
+        display: none;
+      }
+      .nav-links .menu_icon{
+          position: absolute;
+          width: 58px;
+          height: 40px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+          right: 30px;
+  
+      }
+      .about-section{
+          background-image: none;
+      }
+      .inner-container{
+          width: 60%;
+      }
+      .nav-links .menu_icon div{
+         border: 2px solid white;
+          width: 100%;
+      }
     .homepage{
         width: 328%;
         height: 810px;

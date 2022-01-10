@@ -274,7 +274,7 @@ nav img{
 .text{
     font-size: 15px;
     color: #3b3a3a;
-    line-height: 30px;
+    line-height: 5ex;
     text-align: justify;
     margin-bottom: 40px;
 }
@@ -440,14 +440,30 @@ nav img{
 }
 
 /*--------projects animation-----------------*/
+.project-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
+.project-area h1{
+    position:absolute;
+    left: 550px;
+}
+.project-area p:nth-child(2){
+    position:absolute;
+    left: 450px;
+}
 .Do-projects{
     position: relative;
-    top: 150px;
+    top: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     /*background: #8b998b;*/
 }
 .project-Container{
@@ -462,7 +478,7 @@ nav img{
 }
 .project-Container .card{
     position: relative;
-    width: 320px;
+    width: 400px;
     height: 440px;
     box-shadow: inset 5px 5px 5px rgba(0,0,0,0.05),
                 inset -5px -5px 5px rgba(255,255,255,0.5),
@@ -508,7 +524,7 @@ nav img{
     color: rgba(0,0,0,0.05);
 }
 .project-Container .card .project-box .project-content h5{
-    font-size: 1.8em;
+    font-size: 2.5em;
     color: #777;
     z-index: 1;
     transition: 0.5s;
@@ -518,10 +534,13 @@ nav img{
 }
 .project-Container .card:hover .project-box .project-content p{
     color: #d0caca;
+
 }
 .project-Container .card .project-box .project-content p{
-    font-size: 1em;
+
+    font-size: 1.5em;
     font-weight:300;
+    margin-top: 20px;
     color: #777;
     z-index: 1;
     transition: 0.5s;
@@ -544,12 +563,13 @@ nav img{
 }
 .load-moreProject{
     position: absolute;
-    bottom: 90px;
-    left: 550px;
+    bottom: 60px;
+   /* bottom: 90px;
+    left: 550px;*/
 
 }
 .load-moreProject>a{
-    position: relative;
+   /* position: absolute;*/
     text-decoration: none;
     display: inline-block;
     padding: 10px 30px;
@@ -586,6 +606,7 @@ nav img{
     justify-items: center;
     align-items: center;
     justify-content: space-evenly;
+    border: 2px solid black;
 }
 .my-services>h1{
     position: absolute;
@@ -605,9 +626,11 @@ nav img{
     font-size: 30px;
 }
 .my-services>div>p{
+    margin-top: 40px;
     position: absolute;
     color: #262525;
     font-size: 11px;
+    line-height: 5ex;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-weight: bold;
