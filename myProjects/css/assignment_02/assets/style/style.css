@@ -12,8 +12,7 @@ body>header{
 body>header>nav{
     position: absolute;
     right: 30px;
-    bottom: 0;
-    top: 0;
+
     margin: auto;
     height: 35px;
 }
@@ -46,7 +45,7 @@ body>main{
 body>main>aside{
     background-color: #040d40;
     width: 15vw;
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
 }
