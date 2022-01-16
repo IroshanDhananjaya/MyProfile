@@ -16,7 +16,7 @@ main >aside{
     width: 20%;
     position: fixed;
     top: 0;
-    bottom: 0;
+   
     /* border-right: 2px solid rgb(0, 0, 0); */
     background-color: rgb(255, 255, 255);
     
@@ -319,7 +319,6 @@ main>aside>nav>ul>li:hover:before{
 /* ----------------------------education area------------------------------- */
 .education-area{
     position: relative;
-   
     width: 80%;
     left: 20%;
     height: 600px;

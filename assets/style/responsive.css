@@ -111,6 +111,7 @@
 /* ---------------------Side Bar---------------------- */
      main >aside{
         transform: translateX(-200px);
+        z-index: 5;
     }
  
     main>aside>nav>ul>li{
@@ -120,29 +121,29 @@
      /* --------------------------Hero area---------------------- */
      .hero-area{
         border: 1px solid red;
-        left: 7%;
-        width: 147%;
+        left: 0;
+        width: 154%;
     }
     .about-area{
         border: 1px solid red;
-        left: 7%;
-        width: 147%;
+        left: 0;
+        width: 154%;
         height: 579px;
     }
 
     /* --------------------------education area-------------------- */
     .education-area{
         border: 1px solid red;
-        left: 7%;
-        width: 147%;
+        left: 0;
+        width: 154%;
         height: 510px;
     }
 
     /* --------------------------Skill area-------------------- */
     .skill-area{
         border: 1px solid red;
-        left: 7%;
-        width: 147%;
+        left: 0;
+        width: 154%;
         height: 719px;
     }
 
@@ -150,23 +151,23 @@
 
     .projects-area{
         border: 1px solid red;
-        left: 7%;
-        width: 147%;
+        left: 0;
+        width: 154%;
         height: 719px;
     }
       /* --------------------------projects area-------------------- */
       .service-area{
         border: 1px solid red;
-        left: 7%;
-        width: 147%;
+        left: 0;
+        width: 154%;
         height: 534px;
     }
 
      /* --------------------------portfolio area-------------------- */
      .portfolio-area{
         border: 1px solid red;
-        left: 7%;
-        width: 147%;
+        left: 0;
+        width: 154%;
         height: 952px;
     }
     .portfolio-area>div>img:nth-child(1){
@@ -200,8 +201,8 @@
     /* --------------------------contact area-------------------- */
     .contact-area{
         border: 1px solid red;
-        left: 7%;
-        width: 147%;
+        left: 0;
+        width: 154%;
         height: 952px;
     }
 
@@ -218,6 +219,7 @@
 @media all and (min-width: 425px) and (max-width: 767px) {
     /* ---------------------Side Bar---------------------- */
          main >aside{
+             z-index: 15;
             transform: translateX(-150px);
         }
      
@@ -263,54 +265,102 @@
          /* --------------------------Hero area---------------------- */
          .hero-area{
             border: 1px solid red;
-            left: 15%;
-            width: 224%;
+            left: 0;
+            width: 247%;
         }
         .about-area{
             border: 1px solid red;
-            left: 15%;
-            width: 224%;
+            left: 0;
+            width: 247%;
             height: 579px;
         }
     
         /* --------------------------education area-------------------- */
         .education-area{
             border: 1px solid red;
-            left: 15%;
-            width: 224%;
-            height: 510px;
+            left: 0;
+            width: 247%;
+            height: 870px;
         }
+
+        .education-area>h1{
+            position: absolute;
+            top: 0;
+            left: 120px;
+            font-size: 60px;
+        }
+
+        #education-container1{
+            position: absolute;
+            left: 500px;
+        }
+        #education-container2{
+            position: absolute;
+            left: 500px;
+            top: 0;
+        }
+        #education-container3{
+            position: absolute;
+            left: 500px;
+            top: 600px;
+        }
+
+        
     
         /* --------------------------Skill area-------------------- */
         .skill-area{
             border: 1px solid red;
-            left: 15%;
-            width: 224%;
+            left: 0;
+            width: 247%;
             height: 719px;
         }
-    
+        .skill-area>h1{
+            position: absolute;
+            top: 0;
+            left: 120px;
+            font-size: 60px;
+        }
         /* --------------------------projects area-------------------- */
     
         .projects-area{
             border: 1px solid red;
-            left: 15%;
-            width: 224%;
+            left: 0;
+            width: 247%;
             height: 719px;
+        }
+        .projects-area>h1{
+            position: absolute;
+            top: 0;
+            left: 120px;
+            font-size: 60px;
         }
           /* --------------------------projects area-------------------- */
           .service-area{
             border: 1px solid red;
-            left: 15%;
-            width: 224%;
+            left: 0;
+            width: 247%;
             height: 534px;
+        }
+        .service-area>h1{
+            position: absolute;
+            top: 0;
+            left: 120px;
+            font-size: 60px;
         }
     
          /* --------------------------portfolio area-------------------- */
          .portfolio-area{
             border: 1px solid red;
-            left: 15%;
-            width: 224%;
+            left: 0;
+            width: 247%;
             height: 1203px;
+        }
+
+        .portfolio-area>h1{
+            position: absolute;
+            top: 0;
+            left: 120px;
+            font-size: 60px;
         }
         .portfolio-area>div>img:nth-child(1){
           width: 330px;
@@ -342,9 +392,16 @@
         /* --------------------------contact area-------------------- */
         .contact-area{
             border: 1px solid red;
-            left: 15%;
-            width: 224%;
+            left: 0;
+            width: 247%;
             height: 1051px;
+        }
+
+        .contact-area>h1{
+            position: absolute;
+            top: 0;
+            left: 120px;
+            font-size: 60px;
         }
         #programmer{
             display: none;
