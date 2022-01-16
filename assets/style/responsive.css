@@ -12,7 +12,7 @@
 
     /* --------------------------Hero area---------------------- */
     .hero-area{
-        border: 1px solid red;
+      
         left: 25%;
         width: 96%;
     }
@@ -20,7 +20,6 @@
 
     /* -----------------------------about-area--------------------- */
     .about-area{
-        border: 1px solid red;
         left: 25%;
         width: 96%;
         height: 579px;
@@ -28,7 +27,7 @@
 
     /* --------------------------education area-------------------- */
     .education-area{
-        border: 1px solid red;
+       
         left: 25%;
         width: 96%;
         height: 510px;
@@ -36,7 +35,7 @@
 
     /* --------------------------Skill area-------------------- */
     .skill-area{
-        border: 1px solid red;
+      
         left: 25%;
         width: 96%;
         height: 719px;
@@ -45,14 +44,14 @@
     /* --------------------------projects area-------------------- */
 
     .projects-area{
-        border: 1px solid red;
+      
         left: 25%;
         width: 96%;
         height: 719px;
     }
       /* --------------------------projects area-------------------- */
       .service-area{
-        border: 1px solid red;
+      
         left: 25%;
         width: 96%;
         height: 534px;
@@ -60,7 +59,7 @@
 
      /* --------------------------portfolio area-------------------- */
      .portfolio-area{
-        border: 1px solid red;
+      
         left: 25%;
         width: 96%;
         height: 952px;
@@ -95,7 +94,7 @@
     }
     /* --------------------------contact area-------------------- */
     .contact-area{
-        border: 1px solid red;
+     
         left: 25%;
         width: 96%;
         height: 952px;
@@ -120,12 +119,12 @@
 
      /* --------------------------Hero area---------------------- */
      .hero-area{
-        border: 1px solid red;
+       
         left: 0;
         width: 154%;
     }
     .about-area{
-        border: 1px solid red;
+       
         left: 0;
         width: 154%;
         height: 579px;
@@ -133,7 +132,7 @@
 
     /* --------------------------education area-------------------- */
     .education-area{
-        border: 1px solid red;
+         
         left: 0;
         width: 154%;
         height: 510px;
@@ -141,7 +140,7 @@
 
     /* --------------------------Skill area-------------------- */
     .skill-area{
-        border: 1px solid red;
+       
         left: 0;
         width: 154%;
         height: 719px;
@@ -150,14 +149,14 @@
     /* --------------------------projects area-------------------- */
 
     .projects-area{
-        border: 1px solid red;
+       
         left: 0;
         width: 154%;
         height: 719px;
     }
       /* --------------------------projects area-------------------- */
       .service-area{
-        border: 1px solid red;
+       
         left: 0;
         width: 154%;
         height: 534px;
@@ -165,7 +164,7 @@
 
      /* --------------------------portfolio area-------------------- */
      .portfolio-area{
-        border: 1px solid red;
+       
         left: 0;
         width: 154%;
         height: 952px;
@@ -200,7 +199,7 @@
     }
     /* --------------------------contact area-------------------- */
     .contact-area{
-        border: 1px solid red;
+       
         left: 0;
         width: 154%;
         height: 952px;
@@ -264,12 +263,12 @@
     
          /* --------------------------Hero area---------------------- */
          .hero-area{
-            border: 1px solid red;
+           
             left: 0;
             width: 247%;
         }
         .about-area{
-            border: 1px solid red;
+           
             left: 0;
             width: 247%;
             height: 579px;
@@ -277,7 +276,7 @@
     
         /* --------------------------education area-------------------- */
         .education-area{
-            border: 1px solid red;
+            
             left: 0;
             width: 247%;
             height: 870px;
@@ -309,7 +308,7 @@
     
         /* --------------------------Skill area-------------------- */
         .skill-area{
-            border: 1px solid red;
+            
             left: 0;
             width: 247%;
             height: 719px;
@@ -323,7 +322,7 @@
         /* --------------------------projects area-------------------- */
     
         .projects-area{
-            border: 1px solid red;
+           
             left: 0;
             width: 247%;
             height: 719px;
@@ -336,7 +335,7 @@
         }
           /* --------------------------projects area-------------------- */
           .service-area{
-            border: 1px solid red;
+          
             left: 0;
             width: 247%;
             height: 534px;
@@ -350,7 +349,7 @@
     
          /* --------------------------portfolio area-------------------- */
          .portfolio-area{
-            border: 1px solid red;
+           
             left: 0;
             width: 247%;
             height: 1203px;
@@ -391,7 +390,7 @@
         }
         /* --------------------------contact area-------------------- */
         .contact-area{
-            border: 1px solid red;
+           
             left: 0;
             width: 247%;
             height: 1051px;
@@ -543,7 +542,7 @@
         
              /* --------------------------Hero area---------------------- */
              .hero-area{
-                border: 1px solid rgb(248, 0, 0);
+              
                 left: 0;
                 width: 263%;
                 height: 900px;
@@ -572,7 +571,7 @@
 
             /* ----------------------about-area--------------------------- */
             .about-area{
-                border: 1px solid red;
+             
                 left: 0;
                 width: 263%;
                 height: 579px;
@@ -580,7 +579,7 @@
         
             /* --------------------------education area-------------------- */
             .education-area{
-                border: 1px solid red;
+              
                 left: 0;
                 width: 263%;
                 height: 870px;
@@ -612,7 +611,7 @@
         
             /* --------------------------Skill area-------------------- */
             .skill-area{
-                border: 1px solid red;
+              
                 left: 0;
                 width: 263%;
                 height: 719px;
@@ -626,7 +625,7 @@
             /* --------------------------projects area-------------------- */
         
             .projects-area{
-                border: 1px solid red;
+              
                 left: 0;
                 width: 263%;
                 height: 719px;
@@ -639,7 +638,7 @@
             }
               /* --------------------------projects area-------------------- */
               .service-area{
-                border: 1px solid red;
+                
                 left: 0;
                 width: 263%;
                 height: 534px;
@@ -653,7 +652,7 @@
         
              /* --------------------------portfolio area-------------------- */
              .portfolio-area{
-                border: 1px solid red;
+               
                 left: 0;
                 width: 263%;
                 height: 1203px;
@@ -694,7 +693,7 @@
             }
             /* --------------------------contact area-------------------- */
             .contact-area{
-                border: 1px solid red;
+            
                 left: 0;
                 width: 263%;
                 height: 1051px;
