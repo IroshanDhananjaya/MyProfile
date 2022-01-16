@@ -495,3 +495,304 @@
     }
     
 
+    @media all and (min-width: 375px) and (max-width: 424px) {
+        /* ---------------------Side Bar---------------------- */
+             main >aside{
+                 z-index: 15;
+                transform: translateX(-150px);
+            }
+         
+            main>aside>nav>ul>li{
+            padding: 20px;
+            } 
+    
+            #icon1{
+                position: relative;
+                right: -100px;
+            }
+            #icon2{
+                position: relative;
+                right: -100px;
+            }
+            
+            #icon3{
+                position: relative;
+                right: -70px;
+            }
+            
+            #icon4{
+                position: relative;
+                right: -110px;
+            }
+            
+            #icon5{
+                position: relative;
+                right: -85px;
+            }
+            
+            #icon6{
+                position: relative;
+                right: -80px;
+            }
+            
+            #icon7{
+                position: relative;
+                right: -83px;
+            }
+            
+        
+             /* --------------------------Hero area---------------------- */
+             .hero-area{
+                border: 1px solid rgb(248, 0, 0);
+                left: 0;
+                width: 263%;
+                height: 900px;
+            }
+            .hero-area>img{
+                position: absolute;
+                width: 450px;
+                border-radius: 30px;
+                left:300px; 
+                top: 50px;
+                z-index: 2;
+            }
+            .hero-content{
+                position: absolute;
+                width: 400px;
+                height: 400px;
+                font-family: 'Kufam', sans-serif;
+                left: 400px;
+                top: 450px;
+                opacity: 0;
+                animation-name: home-content;
+                animation-duration: 2s;
+                animation-iteration-count: 1;
+                animation-fill-mode: forwards;
+            }
+
+            /* ----------------------about-area--------------------------- */
+            .about-area{
+                border: 1px solid red;
+                left: 0;
+                width: 263%;
+                height: 579px;
+            }
+        
+            /* --------------------------education area-------------------- */
+            .education-area{
+                border: 1px solid red;
+                left: 0;
+                width: 263%;
+                height: 870px;
+            }
+    
+            .education-area>h1{
+                position: absolute;
+                top: 0;
+                left: 120px;
+                font-size: 60px;
+            }
+    
+            #education-container1{
+                position: absolute;
+                left: 500px;
+            }
+            #education-container2{
+                position: absolute;
+                left: 500px;
+                top: 0;
+            }
+            #education-container3{
+                position: absolute;
+                left: 500px;
+                top: 600px;
+            }
+    
+            
+        
+            /* --------------------------Skill area-------------------- */
+            .skill-area{
+                border: 1px solid red;
+                left: 0;
+                width: 263%;
+                height: 719px;
+            }
+            .skill-area>h1{
+                position: absolute;
+                top: 0;
+                left: 120px;
+                font-size: 60px;
+            }
+            /* --------------------------projects area-------------------- */
+        
+            .projects-area{
+                border: 1px solid red;
+                left: 0;
+                width: 263%;
+                height: 719px;
+            }
+            .projects-area>h1{
+                position: absolute;
+                top: 0;
+                left: 120px;
+                font-size: 60px;
+            }
+              /* --------------------------projects area-------------------- */
+              .service-area{
+                border: 1px solid red;
+                left: 0;
+                width: 263%;
+                height: 534px;
+            }
+            .service-area>h1{
+                position: absolute;
+                top: 0;
+                left: 120px;
+                font-size: 60px;
+            }
+        
+             /* --------------------------portfolio area-------------------- */
+             .portfolio-area{
+                border: 1px solid red;
+                left: 0;
+                width: 263%;
+                height: 1203px;
+            }
+    
+            .portfolio-area>h1{
+                position: absolute;
+                top: 0;
+                left: 120px;
+                font-size: 60px;
+            }
+            .portfolio-area>div>img:nth-child(1){
+              width: 330px;
+              left: 150px;
+               
+            }
+            .portfolio-area>div>img:nth-child(2){
+               width: 280px;
+                left: 600px;
+              
+            }
+            .portfolio-area>div>img:nth-child(3){
+               width: 280px;
+               left: 600px;
+               
+            }
+            .portfolio-area>div>img:nth-child(4){
+               width: 280px;
+               left: 255px;
+              top: 400px;
+            }
+            
+            .portfolio-area>div>video{
+               
+                width: 500px;
+                top: 700px;
+               
+            }
+            /* --------------------------contact area-------------------- */
+            .contact-area{
+                border: 1px solid red;
+                left: 0;
+                width: 263%;
+                height: 1051px;
+            }
+    
+            .contact-area>h1{
+                position: absolute;
+                top: 0;
+                left: 120px;
+                font-size: 60px;
+            }
+            #programmer{
+                display: none;
+            }
+            .contact-form{
+                position: relative;
+                width: 80%;
+                height: 420px;
+                left: 110px;
+                top:100px;
+                flex: 50%;
+                border-radius: 20px;
+                text-align: center;
+                background-color: rgb(235, 235, 235);
+            }
+    
+            .address-container{
+                position: absolute;
+               border: 1px solid rgb(0, 0, 0);
+               top: 600px;
+               left: 146px;
+               width: 304px;
+               height: 170px;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+           }
+    
+           .phone-container{
+            position: absolute;
+           border: 1px solid rgb(0, 0, 0);
+           top: 600px;
+           left: 577px;
+           width: 304px;
+           height: 170px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        }
+        .email-container{
+            position: absolute;
+           border: 1px solid rgb(0, 0, 0);
+           top: 861px;
+           left: 358px;
+           width: 304px;
+           height: 170px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        }
+    
+        .email-container>h4{
+            font-size: 25px;
+            
+         }
+         .email-container>p{
+             top: 100px;
+            font-size: 16px;
+            
+         }
+    
+         .phone-container>h4{
+           
+            font-size: 25px;
+            
+         }
+         .phone-container>p{
+            top: 100px;
+            font-size: 16px;
+            
+         }
+    
+         .address-container>h4{
+            font-size: 25px;
+            
+         }
+         .address-container>p{
+             margin-top: 10px;
+           font-size: 16px;
+        }
+    
+            
+        
+             /* --------------------------footer area-------------------- */
+             footer{
+                width: 270%;
+              
+            }
+        
+        
+        }
