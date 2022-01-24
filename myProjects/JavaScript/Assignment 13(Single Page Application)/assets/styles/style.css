@@ -1,0 +1,141 @@
+body{
+    background-color: rgb(240, 240, 239);
+}
+.customer-area{
+    display: none;
+}
+.item-area{
+    display: none;
+}
+.invoice-details{
+    position:relative;
+    margin-top: 20px;
+    background: white;
+    border-radius: 25px;
+    /* margin-left: 10px; */
+    /* border:1px solid black ; */
+   
+}
+.invoice-details h1{
+    position: relative;
+    color: brown;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.select-Item{
+    position:relative;
+    margin-top: 20px;
+    background: white;
+    height: 350px;
+    border-radius: 25px;
+    /* margin-left: 10px; */
+    /* border:1px solid black ; */
+   
+}
+.select-Item h1{
+    position: relative;
+    color: brown;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.addto-cart{
+    position: relative;
+    left: 350px;
+    
+}
+
+.purchase{
+    height: 350px;
+    position:relative;
+    margin-top: 20px;
+    background: white;
+    border-radius: 25px;
+}
+#total{
+    position: relative;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    top: 20px;
+    color: rgb(90, 168, 12);
+    
+}
+#subtotal{
+    position: relative;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    top: 30px;
+    color: darkblue;
+    margin-bottom: 40px;
+    border-bottom: 2px solid black;
+    
+}
+.cart-table{
+    background-color: white;
+    border-radius: 25px;
+}
+
+.customer-form{
+    position: relative;
+    margin-top: 60px;
+    border-right: 2px solid black;
+
+}
+.customer-form>h1{
+    text-align: center;
+    color: darkblue;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.customer-search{
+    position: relative;
+    margin-top: 60px;
+}
+.customer-search>h1{
+    text-align: center;
+    color: rgb(42, 70, 9);
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.search-selector{
+    position: absolute;
+    top: 165px;
+    left: 200px;
+}
+
+.Item-form{
+    position: relative;
+    margin-top: 60px;
+    border-right: 2px solid black;
+
+}
+.Item-form>h1{
+    text-align: center;
+    color: darkblue;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.Item-search{
+    position: relative;
+    margin-top: 60px;
+}
+.Item-search>h1{
+    text-align: center;
+    color: rgb(42, 70, 9);
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.search-selector{
+    position: absolute;
+    top: 165px;
+    left: 200px;
+}
