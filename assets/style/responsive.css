@@ -5,11 +5,14 @@
         padding: 0 28px;
     }
     .header-toggle{
+      position: absolute;
+      display: block;
         display: inline;
-        color: #eeee;
-        font-size: 24px;
+        color: rgba(255, 255, 255, 0.933);
+        font-size: 38px;
         position: absolute;
-        right: -460px;
+       
+       
     }
     .header-close{
         position: absolute;
@@ -54,6 +57,9 @@
       /* --------------------------Navbar area---------------------- */
       header{
           width: 125%;
+      }
+      .header-toggle{
+        z-index: 10;
       }
   
 

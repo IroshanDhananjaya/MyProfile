@@ -1,9 +1,9 @@
 **I am Iroshan Dhananjaya.
 This is My First Web Page**
 
-![GitHub Logo](assets/images/screenpic1.jpeg)
+![GitHub Logo](assets/images/ssPC.jpeg)
 
-![GitHub Logo](assets/images/screenpic2.jpeg)
+![GitHub Logo](assets/images/ssphone.jpeg)
 
 
 **Site Map -** https://www.gloomaps.com/kRheo76fnV
