@@ -189,9 +189,37 @@
      /* --------------------------Hero area---------------------- */
      .hero-area{
         width:283%;
+        border: 1px solid red;
        
-       
+     }
+     .hero-content{
+     
+      left: 80px;
+      top:100px;
+   
+      height: 400px;
+      width: 100%;
   }
+  .hero-content>h1{
+    font-size: 75px;
+    top: 40px;
+  }
+  .hero-content>p{
+     
+      padding: 200px;
+      top: 0px;
+     font-size: 25px;
+  }
+  .social-img{
+      
+      top: 350px;
+  }
+ 
+  .social-img>li{
+      font-size: 25px;
+      
+  }
+
   .hero-area>img{
     display: none;
 }
@@ -201,58 +229,67 @@
     right: 0;
     margin: auto;
 }
+.btn-hire-me{
+
+  bottom: -50px;
+ 
+}
 
 
 
   /* -----------------------------about-area--------------------- */
   .about-area{
     width:283%;
-    height: 1087px;
+    height: 1690px;
     display: flex;
     align-items: center;
     justify-content: center;
+   border: 1px solid red;
   }
 
   .about-img-shape{
     position: absolute;
-    width: 400px;
+    width: 800px;
     top: 20px;
    
 }
 .about-content{
     position: relative;
-   top: 165px;
+    width: 900px;
+    height: 900px;
+    top: 506px;
+    
   
 }
 .about-content>h2{
     position: absolute;
     top: 0px;
-    font-size: 35px;
+    font-size: 55px;
     border-bottom: 3px solid black;
     
 }
 .about-content>h3{
     position: absolute;
-    top:60px;
-    font-size: 25px;
+    top:80px;
+    font-size: 35px;
    
 }
 .about-content>p{
     position: absolute;
     padding: 20px;
     text-align: center;
-    top:100px;
-    font-size: 20px;
+    top:150px;
+    font-size: 30px;
 }
 .about-social-img{
     position: absolute;
     display: flex;
-    top: 460px;
+    top: 600px;
     
 }
 .btn-download-cv{
     position: absolute;
-    top: 531px;
+    top: 681px;
     text-decoration:none;
     padding: 10px 20px;
     border: 2px solid black;
@@ -263,6 +300,8 @@
   /* --------------------------education area-------------------- */
   .education-area{
     width:283%;
+    height: 800px;
+    border: 1px solid red;
   }
   .education-area>img{
       width: 350px;
@@ -273,22 +312,57 @@
 }
 
 .education-content{
-    position: absolute;
-    display:grid;
-    grid-template-rows:repeat(1,1fr) ;
-    grid-template-columns: repeat(3,1fr);
+  
     left: 0;
     right: 0;
     margin: auto;
-    width: 800px;
-    height: 400px;
+    width: 1000px;
+    height: 600px;
     
+}
+
+
+.education-content>div:nth-child(1)>h1{
+  top: 300px;
+  font-size: 30px;
+}
+.education-content>div:nth-child(1)>p{
+  top: 400px;
+  font-size: 22px;
+}
+.education-content>div:nth-child(1)>a{
+  top: 540px;
+}
+
+.education-content>div:nth-child(2)>h1{
+  top: 0px;
+  font-size: 30px;
+}
+.education-content>div:nth-child(2)>p{
+  top: 100px;
+  font-size: 22px;
+}
+.education-content>div:nth-child(2)>a{
+  top: 240px;
+}
+
+.education-content>div:nth-child(3)>h1{
+  top: 300px;
+  font-size: 30px;
+}
+.education-content>div:nth-child(3)>p{
+  top: 400px;
+  font-size: 22px;
+}
+.education-content>div:nth-child(3)>a{
+  top: 540px;
 }
 
   /* --------------------------Skill area-------------------- */
   .skill-area{
     width:283%;
-    height: 950px;
+    height: 1150px;
+    
   }
   .skill-container{
     position: relative;
@@ -303,19 +377,42 @@
 }
 .left{
     position: absolute;
-    width:60%;
+    width:80%;
+    height: 400px;
     top: 200px;
     left: 0;
     right: 0;
     margin: auto;
+   
 }
 .right{
     position: absolute;
-    width:60%;
+    width:80%;
+    height: 500px;
     left: 0;
     right: 0;
     margin: auto;
-    top: 500px;
+    top: 600px;
+   
+}
+
+
+.left h1{
+  font-size: 60px;
+}
+.left p{
+font-size: 30px;
+margin: 40px 0;  
+
+}
+.left a{
+ 
+  padding: 8px 16px;
+  font-size: 28px;
+}
+.right .info span{
+ 
+  font-size: 30px;
 }
 
 
@@ -327,20 +424,30 @@
   .service-content:nth-child(2){
     position: absolute;
     top: 218px;
-    width: 589px;
+    width: 680px;
     height: 300px;
 }
 .service-content:nth-child(3){
     position: absolute;
-    width: 589px;
+    width: 680px;
     height: 300px;
     top: 570px;
 }
 .service-content:nth-child(4){
     position: absolute;
-    width: 589px;
+    width: 680px;
     height: 300px;
     top: 925px;
+}
+.front-box h1{
+ 
+font-size: 50px;
+  top: 0px;
+}
+.front-box p{
+  font-size: 30px;
+  bottom: 10px;
+  padding: 10px;
 }
   
   /* --------------------------projects area-------------------- */
@@ -369,11 +476,35 @@
   .project-left{
     position: absolute;
     top: 0;
+    width: 80%;
+    height: 420px;
+   
   }
   .project-right{
     position: absolute;
-    top: 350px;
+    top: 450px;
+   
+    width: 80%;
   }
+
+  .project-left>h1{
+    font-size: 60px;
+}
+.project-left>P{
+    position: absolute;
+    top: 180px;
+    font-size: 28px;
+}
+
+.project-left>a{
+   
+    top: 340px;
+    font-size: 26px;
+}
+.project-box h1{
+ 
+  font-size: 35px;
+}
  
   /* --------------------------contact area-------------------- */
   .contact-area{
@@ -393,9 +524,9 @@
 .contact-form-btn{
     position: absolute;
     top: 370px;
-  left: 0;
-  right: 0;
-  margin: auto;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 .address-container{
   
@@ -417,6 +548,36 @@
    left: 772px;
   
  }
+ .address-container>h4{
+  font-size: 23px;
+  top: 50px;
+  
+}
+.address-container>p{
+ top: 90px;
+ font-size: 18px;
+  
+}
+.phone-container>h4{
+  font-size: 23px;
+  top: 50px;
+  
+}
+.phone-container>p{
+ top: 90px;
+ font-size: 18px;
+  
+}
+.email-container>h4{
+  font-size: 23px;
+  top: 50px;
+  
+}
+.email-container>p{
+ top: 90px;
+ font-size: 14.5px;
+  
+}
 
   /* --------------------------footer area-------------------- */
   .footer-area{
@@ -434,25 +595,64 @@
      /* --------------------------Hero area---------------------- */
      .hero-area{
         width:375%;
+        height: 700px;
+        border: 1px solid red;
        
-       
-  }
+    }
   .hero-area>img{
     display: none;
 }
+
 .hero-content{
-    position: absolute;
-    left: 0;
+      position: absolute;
+  left: 80px;
+  top:100px;
+ left: 0;
     right: 0;
     margin: auto;
+  height: 600px;
+  width: 100%;
+  border: 1px solid red;
+}
+.hero-content>h1{
+font-size: 85px;
+top: 40px;
+}
+.hero-content>p{
+ 
+  padding: 200px;
+  top: 0px;
+ font-size: 35px;
+}
+.social-img{
+  
+  top: 460px;
 }
 
+.social-img>li{
+  font-size: 25px;
+  }
+
+.hero-area>img{
+display: none;
+}
+.hero-content{
+position: absolute;
+left: 0;
+right: 0;
+margin: auto;
+}
+.btn-hire-me{
+
+bottom: 25px;
+
+}
 
 
   /* -----------------------------about-area--------------------- */
   .about-area{
     width:375%;
-    height: 1087px;
+    height: 1640px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -460,44 +660,47 @@
 
   .about-img-shape{
     position: absolute;
-    width: 400px;
+    width: 800px;
     top: 20px;
    
 }
 .about-content{
     position: relative;
-   top: 165px;
+    width: 900px;
+    height: 900px;
+    top: 506px;
+    
   
 }
 .about-content>h2{
     position: absolute;
     top: 0px;
-    font-size: 35px;
+    font-size: 59px;
     border-bottom: 3px solid black;
     
 }
 .about-content>h3{
     position: absolute;
-    top:60px;
-    font-size: 25px;
+    top:80px;
+    font-size: 45px;
    
 }
 .about-content>p{
     position: absolute;
     padding: 20px;
     text-align: center;
-    top:100px;
-    font-size: 20px;
+    top:150px;
+    font-size: 32px;
 }
 .about-social-img{
     position: absolute;
     display: flex;
-    top: 460px;
+    top: 620px;
     
 }
 .btn-download-cv{
     position: absolute;
-    top: 531px;
+    top: 686px;
     text-decoration:none;
     padding: 10px 20px;
     border: 2px solid black;
@@ -518,22 +721,56 @@
 }
 
 .education-content{
-    position: absolute;
-    display:grid;
-    grid-template-rows:repeat(1,1fr) ;
-    grid-template-columns: repeat(3,1fr);
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 800px;
-    height: 400px;
-    
+  
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 1200px;
+  height: 600px;
+  
+}
+
+
+.education-content>div:nth-child(1)>h1{
+top: 300px;
+font-size: 30px;
+}
+.education-content>div:nth-child(1)>p{
+top: 400px;
+font-size: 22px;
+}
+.education-content>div:nth-child(1)>a{
+top: 540px;
+}
+
+.education-content>div:nth-child(2)>h1{
+top: 0px;
+font-size: 30px;
+}
+.education-content>div:nth-child(2)>p{
+top: 100px;
+font-size: 22px;
+}
+.education-content>div:nth-child(2)>a{
+top: 240px;
+}
+
+.education-content>div:nth-child(3)>h1{
+top: 300px;
+font-size: 30px;
+}
+.education-content>div:nth-child(3)>p{
+top: 400px;
+font-size: 22px;
+}
+.education-content>div:nth-child(3)>a{
+top: 540px;
 }
 
   /* --------------------------Skill area-------------------- */
   .skill-area{
     width:375%;
-    height: 950px;
+    height: 1150px;
   }
   .skill-container{
     position: relative;
@@ -548,19 +785,42 @@
 }
 .left{
     position: absolute;
-    width:60%;
+    width:80%;
+    height: 400px;
     top: 200px;
     left: 0;
     right: 0;
     margin: auto;
+   
 }
 .right{
     position: absolute;
-    width:60%;
+    width:80%;
+    height: 500px;
     left: 0;
     right: 0;
     margin: auto;
-    top: 500px;
+    top: 600px;
+   
+}
+
+
+.left h1{
+  font-size: 60px;
+}
+.left p{
+font-size: 30px;
+margin: 40px 0;  
+
+}
+.left a{
+ 
+  padding: 8px 16px;
+  font-size: 28px;
+}
+.right .info span{
+ 
+  font-size: 30px;
 }
 
 
@@ -572,20 +832,30 @@
   .service-content:nth-child(2){
     position: absolute;
     top: 218px;
-    width: 589px;
+    width: 780px;
     height: 300px;
 }
 .service-content:nth-child(3){
     position: absolute;
-    width: 589px;
+    width: 780px;
     height: 300px;
     top: 570px;
 }
 .service-content:nth-child(4){
     position: absolute;
-    width: 589px;
+    width: 780px;
     height: 300px;
     top: 925px;
+}
+.front-box h1{
+ 
+font-size: 50px;
+  top: 0px;
+}
+.front-box p{
+  font-size: 30px;
+  bottom: 10px;
+  padding: 10px;
 }
   
   /* --------------------------projects area-------------------- */
@@ -594,32 +864,56 @@
     height: 1000px;
   }
 
+  
   .projects-area h2{
-      position: absolute;
-      font-size: 150px;
-      color: gray;
-      top: 0px;
-      left: 470px;
-      opacity: 1;
-     
-  }
-
-  .project-container{
-      top: -150px;
-     display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .project-left{
     position: absolute;
-    top: 0;
-  }
-  .project-right{
-    position: absolute;
-    top: 350px;
-  }
+    font-size: 150px;
+    color: gray;
+    top: 0px;
+    left: 470px;
+    opacity: 1;
+   
+}
+
+.project-container{
+    top: -150px;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-left{
+  position: absolute;
+  top: 0;
+  width: 80%;
+  height: 420px;
  
+}
+.project-right{
+  position: absolute;
+  top: 450px;
+ 
+  width: 80%;
+}
+
+.project-left>h1{
+  font-size: 60px;
+}
+.project-left>P{
+  position: absolute;
+  top: 180px;
+  font-size: 28px;
+}
+
+.project-left>a{
+ 
+  top: 340px;
+  font-size: 26px;
+}
+.project-box h1{
+
+font-size: 35px;
+}
   /* --------------------------contact area-------------------- */
   .contact-area{
     width:375%;
@@ -662,6 +956,36 @@
    left: 871px;
   
  }
+ .address-container>h4{
+  font-size: 23px;
+  top: 50px;
+  
+}
+.address-container>p{
+ top: 90px;
+ font-size: 18px;
+  
+}
+.phone-container>h4{
+  font-size: 23px;
+  top: 50px;
+  
+}
+.phone-container>p{
+ top: 90px;
+ font-size: 18px;
+  
+}
+.email-container>h4{
+  font-size: 23px;
+  top: 50px;
+  
+}
+.email-container>p{
+ top: 90px;
+ font-size: 14.5px;
+  
+}
 
   /* --------------------------footer area-------------------- */
   .footer-area{
