@@ -1,15 +1,19 @@
 @media screen and (max-width:768px){
     header{
-        height: 48px;
+        height: 88px;
         justify-content: space-between;
         padding: 0 28px;
     }
+    .nav-link{
+     font-size: 1.9rem;
+      
+  }
     .header-toggle{
       position: absolute;
       display: block;
         display: inline;
         color: rgba(255, 255, 255, 0.933);
-        font-size: 38px;
+        font-size: 78px;
         position: absolute;
        
        
@@ -19,7 +23,7 @@
         right: 24px;
         top: 30px;
         display: block;
-        font-size: 24px;
+        font-size: 50px;
         border-radius: 50%;
     }
 
@@ -189,9 +193,11 @@
      /* --------------------------Hero area---------------------- */
      .hero-area{
         width:283%;
-        border: 1px solid red;
-       
-     }
+      }
+      .header-toggle{
+        position: absolute;
+        right: 200px;
+      }
      .hero-content{
      
       left: 80px;
@@ -244,7 +250,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-   border: 1px solid red;
+   
   }
 
   .about-img-shape{
@@ -301,7 +307,7 @@
   .education-area{
     width:283%;
     height: 800px;
-    border: 1px solid red;
+   
   }
   .education-area>img{
       width: 350px;
@@ -596,7 +602,7 @@ font-size: 50px;
      .hero-area{
         width:375%;
         height: 700px;
-        border: 1px solid red;
+       
        
     }
   .hero-area>img{
@@ -612,7 +618,7 @@ font-size: 50px;
     margin: auto;
   height: 600px;
   width: 100%;
-  border: 1px solid red;
+ 
 }
 .hero-content>h1{
 font-size: 85px;
