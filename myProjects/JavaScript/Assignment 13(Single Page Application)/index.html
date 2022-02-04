@@ -173,22 +173,22 @@
                 <h1>Customer Manage</h1>
                 <div class="row">
                      <div class="mb-3 input-group-sm col-6">
-                            <label for="formGroupExampleInput" class="form-label">Customer ID</label>
-                           <input type="text" class="form-control" id="formGroupExampleInput">
+                            <label for="txtCustID" class="form-label">Customer ID</label>
+                           <input type="text" class="form-control" id="txtCustID">
                     </div>
                 <div class="mb-3 input-group-sm col-6">
-                        <label for="formGroupExampleInput" class="form-label">Customer Name</label>
-                       <input type="text" class="form-control" id="formGroupExampleInput1">
+                        <label for="txtCustName" class="form-label">Customer Name</label>
+                       <input type="text" class="form-control" id="txtCustName">
                 </div>
                 <div class="mb-3 input-group-sm col-6">
-                    <label for="formGroupExampleInput" class="form-label">Customer Address</label>
-                   <input type="text" class="form-control" id="formGroupExampleInput2">
+                    <label for="txtCustAddress" class="form-label">Customer Address</label>
+                   <input type="text" class="form-control" id="txtCustAddress">
                 </div>
                 <div class="mb-3 input-group-sm col-6">
-                    <label for="formGroupExampleInput" class="form-label">Customer Salary</label>
-                   <input type="text" class="form-control" id="formGroupExampleInput3">
+                    <label for="txtCustSalary" class="form-label">Customer Salary</label>
+                   <input type="text" class="form-control" id="txtCustSalary">
                 </div>
-                <button type="button" class="btn btn-primary col-2 mx-3">Save</button>
+                <button type="button" class="btn btn-primary col-2 mx-3" id="btn-save-customer">Save</button>
                 <button type="button" class="btn btn-success col-2 mx-3">Update</button>
                 <button type="button" class="btn btn-danger col-2">Delete</button>
                     
@@ -200,8 +200,8 @@
                 <div class="row">
                     <div class="col">
                         <div class="mb-3 input-group-sm col-9 mx-5">
-                            <label for="formGroupExampleInput" class="form-label">Input Customer Name/Code Here</label>
-                           <input type="text" class="form-control" id="formGroupExampleInput4">
+                            <label for="txtCustomerSearch" class="form-label">Input Customer Name/Code Here</label>
+                           <input type="text" class="form-control" id="txtCustomerSearch">
                         </div>
                         <button type="button" class="btn btn-success col-2 mx-5">Search</button>
                         <div class="col-3 search-selector">
@@ -218,7 +218,7 @@
             
             <div class="col=12">
                 <br><br>
-                <table class="table table-hover">
+                <table class="table table-hover" id="customer-table">
                     <thead>
                     <tr>
                         <th>Customer NIC</th>
@@ -227,19 +227,8 @@
                         <th>Salary</th>
                     </tr>
                     </thead>
-                    <tbody>
-                    <tr>
-                        <td>01</td>
-                        <td>Iroshan</td>
-                        <td>Rathnapura</td>
-                        <td>75000.00</td>
-                    </tr>
-                    <tr>
-                        <td>02</td>
-                        <td>Dhananjaya</td>
-                        <td>Pelmadulla</td>
-                        <td>40000.00</td>
-                    </tr>
+                    <tbody id="customerTable">
+
                     </tbody>
                 </table>
             </div>
@@ -325,6 +314,7 @@
         </div>
     </section>
 
+    <script src="assets/jQuery/jquery-3.6.0.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/javaScript/script.js"></script>
 </body>

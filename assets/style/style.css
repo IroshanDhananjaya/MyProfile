@@ -113,11 +113,22 @@ header{
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes test {
+    to{
+        transform: scale(1);
+    }from{
+        transform: scale(1.2);
+    }
 }
 .social-img>li{
     font-size: 20px;
-    
 }
+
 
 .social-img>li>:hover .i{
     color: white;
@@ -563,7 +574,7 @@ header{
     padding: 8px 16px;
     border: 2px solid crimson;
     border-radius: 6px;
-    transition: all 0,3s ease;
+    transition: all 0.3s ease;
     text-decoration: none;
     font-size: 18px;
 }
