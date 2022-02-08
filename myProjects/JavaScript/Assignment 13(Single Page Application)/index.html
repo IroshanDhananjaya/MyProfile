@@ -242,21 +242,21 @@
                 <div class="row">
                      <div class="mb-3 input-group-sm col-6">
                             <label for="formGroupExampleInput" class="form-label">Item Code</label>
-                           <input type="text" class="form-control" id="formGroupExampleInput">
+                           <input type="text" class="form-control" id="txtItemCode">
                     </div>
                 <div class="mb-3 input-group-sm col-6">
                         <label for="formGroupExampleInput" class="form-label">Item Name</label>
-                       <input type="text" class="form-control" id="formGroupExampleInput1">
+                       <input type="text" class="form-control" id="txtItemName">
                 </div>
                 <div class="mb-3 input-group-sm col-6">
                     <label for="formGroupExampleInput" class="form-label">Qty On Hand</label>
-                   <input type="text" class="form-control" id="formGroupExampleInput2">
+                   <input type="text" class="form-control" id="txtQty">
                 </div>
                 <div class="mb-3 input-group-sm col-6">
                     <label for="formGroupExampleInput" class="form-label">Unit Price</label>
-                   <input type="text" class="form-control" id="formGroupExampleInput3">
+                   <input type="text" class="form-control" id="txtPrice">
                 </div>
-                <button type="button" class="btn btn-primary col-2 mx-3">Save</button>
+                <button type="button" class="btn btn-primary col-2 mx-3" id="btn-item-save">Save</button>
                 <button type="button" class="btn btn-success col-2 mx-3">Update</button>
                 <button type="button" class="btn btn-danger col-2">Delete</button>
                     
@@ -286,7 +286,7 @@
             
             <div class="col=12">
                 <br><br>
-                <table class="table table-hover">
+                <table class="table table-hover" id="item-Tabele">
                     <thead>
                     <tr>
                         <th>Item Code</th>
@@ -295,19 +295,8 @@
                         <th>Price</th>
                     </tr>
                     </thead>
-                    <tbody>
-                        <tr>
-                            <td>I001</td>
-                            <td>Milo</td>
-                            <td>25</td>
-                            <td>75.00</td>
-                        </tr>
-                        <tr>
-                            <td>I002</td>
-                            <td>Yogurt</td>
-                            <td>50</td>
-                            <td>40.00</td>
-                        </tr>
+                    <tbody id="itemTable">
+
                     </tbody>
                 </table>
             </div>
