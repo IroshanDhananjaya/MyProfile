@@ -52,7 +52,7 @@ $("#btn-save-customer").click(function () {
 });
 
 
-$("#txtCustID").on("keydown",function (event) {
+$("#txtCustID").on("keydown", function (event) {
     if (event.key == "Enter") {
         $("#txtCustName").focus()
     }
@@ -78,46 +78,45 @@ $("#txtCustSalary").keydown(function (event) {
 
 var regExCusID = /^(C00-)[0-9]{3,4}$/;
 var regExCusName = /^[A-z ]{3,20}$$/;
-var regExAddress=/^[A-z0-9/, ]{6,30}$/;
-var regExSalary=/^[0-9]{1,}[.]?[0-9]{2}$/;
+var regExAddress = /^[A-z0-9/, ]{6,30}$/;
+var regExSalary = /^[0-9]{1,}[.]?[0-9]{2}$/;
 
-function validation(regExPara,nextReg,thisField,nextField){
-    console.log("awooooooooooo")
-    var regEx=regExPara;
-    if(regEx.test($(thisField).val())){
-        $(thisField).css("border","2px solid green");
-
-        if(nextField !=0){
-            checkNext(nextReg,nextField);
+function validation(regExPara, nextReg, thisField, nextField) {
+    var regEx = regExPara;
+    if (regEx.test($(thisField).val())) {
+        $(thisField).css("border", "2px solid green");
+        if (nextField != 0) {
+            checkNext(nextReg, nextField);
             $("#error").text("");
         }
 
-    }else {
-        $(thisField).css("border","2px solid red");
+    } else {
+        $(thisField).css("border", "2px solid red");
     }
 }
-function checkNext(nextReg,nextField){
-    console.log("next Check")
-    if(nextReg.test($(nextField).val())){
-        $(nextField).css("border","2px solid green");
+
+function checkNext(nextReg, nextField) {
+    if (nextReg.test($(nextField).val())) {
+        $(nextField).css("border", "2px solid green");
         $("#error").text("");
-    }else {
+    } else {
+        $(nextField).css("border", "2px solid red");
         $("#error").text("Invalid");
     }
 }
 
-$("#txtCustID").on("keyup",function () {
-    validation(regExCusID,regExCusName,"#txtCustID","#txtCustName");
+$("#txtCustID").on("keyup", function () {
+    validation(regExCusID, regExCusName, "#txtCustID", "#txtCustName");
 });
 
 $("#txtCustName").keyup(function () {
-    validation(regExCusName,regExAddress,"#txtCustName","#txtCustAddress");
+    validation(regExCusName, regExAddress, "#txtCustName", "#txtCustAddress");
 });
 $("#txtCustAddress").keyup(function () {
-    validation(regExAddress,regExSalary,"#txtCustAddress","#txtCustSalary");
+    validation(regExAddress, regExSalary, "#txtCustAddress", "#txtCustSalary");
 });
 $("#txtCustSalary").keyup(function () {
-    validation(regExSalary,"","#txtCustSalary","");
+    validation(regExSalary, "", "#txtCustSalary", "");
 });
 
 
@@ -182,20 +181,20 @@ $("#txtPrice").keydown(function (event) {
 
 var regExItemCode = /^(I00-)[0-9]{3,4}$/;
 var regExItemName = /^^[A-z ]{3,20}$$/
-var regExQTY=/^[0-9]{1,20}$/;
-var regExPrice=/^[0-9]{1,}[.]?[0-9]{2}$/;
+var regExQTY = /^[0-9]{1,20}$/;
+var regExPrice = /^[0-9]{1,}[.]?[0-9]{2}$/;
 
 $("#txtItemCode").keyup(function () {
-  validation(regExItemCode,regExItemName,"#txtItemCode","#txtItemName");
+    validation(regExItemCode, regExItemName, "#txtItemCode", "#txtItemName");
 });
 
 $("#txtItemName").keyup(function () {
-    validation(regExItemName,regExQTY,"#txtItemName","#txtQty");
+    validation(regExItemName, regExQTY, "#txtItemName", "#txtQty");
 });
 
 $("#txtQty").keyup(function () {
-    validation(regExQTY,regExPrice,"#txtQty","#txtPrice");
+    validation(regExQTY, regExPrice, "#txtQty", "#txtPrice");
 });
 $("#txtPrice").keyup(function () {
-    validation(regExPrice,"","#txtPrice","");
+    validation(regExPrice, "", "#txtPrice", "");
 });
