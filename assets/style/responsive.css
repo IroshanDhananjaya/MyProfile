@@ -199,10 +199,10 @@
         right: 200px;
       }
      .hero-content{
-     
+
       left: 80px;
       top:100px;
-   
+
       height: 400px;
       width: 100%;
   }
@@ -211,19 +211,19 @@
     top: 40px;
   }
   .hero-content>p{
-     
+
       padding: 200px;
       top: 0px;
      font-size: 25px;
   }
   .social-img{
-      
+
       top: 350px;
   }
- 
+
   .social-img>li{
       font-size: 25px;
-      
+
   }
 
   .hero-area>img{
@@ -238,7 +238,7 @@
 .btn-hire-me{
 
   bottom: -50px;
- 
+
 }
 
 
@@ -251,7 +251,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-   
+
   }
     .about-left{
         position: absolute;
@@ -300,7 +300,7 @@
   .education-area{
     width:283%;
     height: 800px;
-   
+
   }
   .education-area>img{
       width: 350px;
@@ -311,13 +311,13 @@
 }
 
 .education-content{
-  
+
     left: 0;
     right: 0;
     margin: auto;
     width: 1000px;
     height: 600px;
-    
+
 }
 
 
@@ -361,7 +361,7 @@
   .skill-area{
     width:283%;
     height: 1150px;
-    
+
   }
   .skill-container{
     position: relative;
@@ -382,7 +382,7 @@
     left: 0;
     right: 0;
     margin: auto;
-   
+
 }
 .right{
     position: absolute;
@@ -392,7 +392,7 @@
     right: 0;
     margin: auto;
     top: 600px;
-   
+
 }
 
 
@@ -401,16 +401,16 @@
 }
 .left p{
 font-size: 30px;
-margin: 40px 0;  
+margin: 40px 0;
 
 }
 .left a{
- 
+
   padding: 8px 16px;
   font-size: 28px;
 }
 .right .info span{
- 
+
   font-size: 30px;
 }
 
@@ -439,7 +439,7 @@ margin: 40px 0;
     top: 925px;
 }
 .front-box h1{
- 
+
 font-size: 50px;
   top: 0px;
 }
@@ -448,7 +448,7 @@ font-size: 50px;
   bottom: 10px;
   padding: 10px;
 }
-  
+
   /* --------------------------projects area-------------------- */
   .projects-area{
     width:283%;
@@ -462,7 +462,7 @@ font-size: 50px;
       top: 0px;
       left: 470px;
       opacity: 1;
-     
+
   }
 
   .project-container{
@@ -477,12 +477,12 @@ font-size: 50px;
     top: 0;
     width: 80%;
     height: 420px;
-   
+
   }
   .project-right{
     position: absolute;
     top: 450px;
-   
+
     width: 80%;
   }
 
@@ -496,15 +496,15 @@ font-size: 50px;
 }
 
 .project-left>a{
-   
+
     top: 340px;
     font-size: 26px;
 }
 .project-box h1{
- 
+
   font-size: 35px;
 }
- 
+
   /* --------------------------contact area-------------------- */
   .contact-area{
     width:283%;
@@ -518,7 +518,7 @@ font-size: 50px;
     right: 0;
     margin: auto;
     height: 450px;
-   
+
 }
 .contact-form-btn{
     position: absolute;
@@ -528,61 +528,61 @@ font-size: 50px;
     margin: auto;
 }
 .address-container{
-  
+
    top: 100px;
    left: 174px;
- 
+
 }
 .phone-container{
- 
+
    top: 100px;
    left: 0;
    right: 0;
    margin: auto;
-  
+
  }
  .email-container{
-  
+
    top: 100px;
    left: 772px;
-  
+
  }
  .address-container>h4{
   font-size: 23px;
   top: 50px;
-  
+
 }
 .address-container>p{
  top: 90px;
  font-size: 18px;
-  
+
 }
 .phone-container>h4{
   font-size: 23px;
   top: 50px;
-  
+
 }
 .phone-container>p{
  top: 90px;
  font-size: 18px;
-  
+
 }
 .email-container>h4{
   font-size: 23px;
   top: 50px;
-  
+
 }
 .email-container>p{
  top: 90px;
  font-size: 14.5px;
-  
+
 }
 
   /* --------------------------footer area-------------------- */
   .footer-area{
     width:283%;
   }
-  
+
 
 
 }
@@ -595,8 +595,8 @@ font-size: 50px;
      .hero-area{
         width:375%;
         height: 700px;
-       
-       
+
+
     }
   .hero-area>img{
     display: none;
@@ -611,20 +611,20 @@ font-size: 50px;
     margin: auto;
   height: 600px;
   width: 100%;
- 
+
 }
 .hero-content>h1{
 font-size: 85px;
 top: 40px;
 }
 .hero-content>p{
- 
+
   padding: 200px;
   top: 0px;
  font-size: 35px;
 }
 .social-img{
-  
+
   top: 307px;
 }
 
@@ -713,13 +713,13 @@ bottom: 124px;
 }
 
 .education-content{
-  
+
   left: 0;
   right: 0;
   margin: auto;
   width: 1200px;
   height: 600px;
-  
+
 }
 
 
@@ -783,7 +783,7 @@ top: 540px;
     left: 0;
     right: 0;
     margin: auto;
-   
+
 }
 .right{
     position: absolute;
@@ -793,7 +793,7 @@ top: 540px;
     right: 0;
     margin: auto;
     top: 600px;
-   
+
 }
 
 
@@ -802,16 +802,16 @@ top: 540px;
 }
 .left p{
 font-size: 30px;
-margin: 40px 0;  
+margin: 40px 0;
 
 }
 .left a{
- 
+
   padding: 8px 16px;
   font-size: 28px;
 }
 .right .info span{
- 
+
   font-size: 30px;
 }
 
@@ -840,7 +840,7 @@ margin: 40px 0;
     top: 925px;
 }
 .front-box h1{
- 
+
 font-size: 50px;
   top: 0px;
 }
@@ -849,14 +849,14 @@ font-size: 50px;
   bottom: 10px;
   padding: 10px;
 }
-  
+
   /* --------------------------projects area-------------------- */
   .projects-area{
     width:375%;
     height: 1000px;
   }
 
-  
+
   .projects-area h2{
     position: absolute;
     font-size: 150px;
@@ -864,7 +864,7 @@ font-size: 50px;
     top: 0px;
     left: 470px;
     opacity: 1;
-   
+
 }
 
 .project-container{
@@ -879,12 +879,12 @@ font-size: 50px;
   top: 0;
   width: 80%;
   height: 420px;
- 
+
 }
 .project-right{
   position: absolute;
   top: 450px;
- 
+
   width: 80%;
 }
 
@@ -898,7 +898,7 @@ font-size: 50px;
 }
 
 .project-left>a{
- 
+
   top: 340px;
   font-size: 26px;
 }
@@ -919,7 +919,7 @@ font-size: 35px;
     right: 0;
     margin: auto;
     height: 450px;
-   
+
 }
 .contact-form-btn{
     position: absolute;
@@ -929,74 +929,74 @@ font-size: 35px;
   margin: auto;
 }
 .address-container{
-  
+
    top: 100px;
    left: 275px;
- 
+
 }
 .phone-container{
- 
+
    top: 100px;
    left: 0;
    right: 0;
    margin: auto;
-  
+
  }
  .email-container{
-  
+
    top: 100px;
    left: 871px;
-  
+
  }
  .address-container>h4{
   font-size: 23px;
   top: 50px;
-  
+
 }
 .address-container>p{
  top: 90px;
  font-size: 18px;
-  
+
 }
 .phone-container>h4{
   font-size: 23px;
   top: 50px;
-  
+
 }
 .phone-container>p{
  top: 90px;
  font-size: 18px;
-  
+
 }
 .email-container>h4{
   font-size: 23px;
   top: 50px;
-  
+
 }
 .email-container>p{
  top: 90px;
  font-size: 14.5px;
-  
+
 }
 
   /* --------------------------footer area-------------------- */
   .footer-area{
     width:375%;
   }
-  
-   
+
+
     /* .address-container{
-      
+
        top: 100px;
        left: 275px;
-     
+
     }
-    
+
      .email-container{
-      
+
        top: 100px;
        left: 871px;
-      
+
      } */
 }
 
@@ -1008,8 +1008,8 @@ font-size: 35px;
      /* --------------------------Hero area---------------------- */
      .hero-area{
         width:375%;
-       
-       
+
+
   }
   .hero-area>img{
     display: none;
@@ -1097,7 +1097,7 @@ font-size: 35px;
     margin: auto;
     width: 800px;
     height: 400px;
-    
+
 }
 
   /* --------------------------Skill area-------------------- */
@@ -1157,7 +1157,7 @@ font-size: 35px;
     height: 300px;
     top: 925px;
 }
-  
+
   /* --------------------------projects area-------------------- */
   .projects-area{
     width:375%;
@@ -1171,7 +1171,7 @@ font-size: 35px;
       top: 0px;
       left: 470px;
       opacity: 1;
-     
+
   }
 
   .project-container{
@@ -1189,7 +1189,7 @@ font-size: 35px;
     position: absolute;
     top: 350px;
   }
- 
+
   /* --------------------------contact area-------------------- */
   .contact-area{
     width:375%;
@@ -1203,7 +1203,7 @@ font-size: 35px;
     right: 0;
     margin: auto;
     height: 450px;
-   
+
 }
 .contact-form-btn{
     position: absolute;
@@ -1213,32 +1213,31 @@ font-size: 35px;
   margin: auto;
 }
 .address-container{
-  
+
    top: 100px;
    left: 174px;
- 
+
 }
 .phone-container{
- 
+
    top: 100px;
    left: 0;
    right: 0;
    margin: auto;
-  
+
  }
  .email-container{
-  
+
    top: 100px;
    left: 772px;
-  
+
  }
 
   /* --------------------------footer area-------------------- */
   .footer-area{
     width:375%;
   }
-  
+
 
 
 }
-   
