@@ -139,7 +139,7 @@ header{
 }
 
 
-.social-img>li>i{
+.social-img>li>a>i{
     color: white;
 }
     
