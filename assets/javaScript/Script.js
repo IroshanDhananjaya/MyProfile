@@ -8,15 +8,35 @@ toggleMenu.addEventListener('click',()=>{
 closeMenu.addEventListener('click',()=>{
     navMenu.classList.remove('show')
 })
-
 window.addEventListener('scroll',()=>{
-    let content=document.querySelector('.about-section');
+    let content=document.querySelector('.whoAmIArea-container2');
     let contentPosition=content.getBoundingClientRect().top;
     let screenPostion=window.innerHeight;
     if(contentPosition<screenPostion){
-       content.classList.add('active')
+        content.classList.add('active-whoAmIArea-container2')
     }else {
-        content.classList.remove('active')
+        content.classList.remove('active-whoAmIArea-container2')
+    }
+});
+window.addEventListener('scroll',()=>{
+    let content=document.querySelector('.whoAmIArea-container3');
+    let contentPosition=content.getBoundingClientRect().top;
+    let screenPostion=window.innerHeight;
+    if(contentPosition<screenPostion){
+        content.classList.add('active-whoAmIArea-container3')
+    }else {
+        content.classList.remove('active-whoAmIArea-container3')
+    }
+});
+
+window.addEventListener('scroll',()=>{
+    let content=document.querySelector('.about-right');
+    let contentPosition=content.getBoundingClientRect().top;
+    let screenPostion=window.innerHeight;
+    if(contentPosition<screenPostion){
+       content.classList.add('active-about-right')
+    }else {
+        content.classList.remove('active-about-right')
     }
 });
 window.addEventListener('scroll',()=>{
@@ -39,16 +59,7 @@ window.addEventListener('scroll',()=>{
         content.classList.remove('active2')
     }
 });
-window.addEventListener('scroll',()=>{
-    let content=document.querySelector('.service-area');
-    let contentPosition=content.getBoundingClientRect().top;
-    let screenPostion=window.innerHeight;
-    if(contentPosition<screenPostion){
-        content.classList.add('active3')
-    }else {
-        content.classList.remove('active3')
-    }
-});
+
 window.addEventListener('scroll',()=>{
     let content=document.querySelector('.projects-area');
     let contentPosition=content.getBoundingClientRect().top;

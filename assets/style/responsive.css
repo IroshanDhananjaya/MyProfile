@@ -71,7 +71,10 @@
     .hero-area{
         width: 125%;
     }
-
+    /* --------------------------Who am i area---------------------- */
+    .whoAmIArea-area{
+        width: 1280px;
+    }
 
     /* -----------------------------about-area--------------------- */
     .about-area{
@@ -131,6 +134,11 @@
        .hero-area{
         width: 165%;
     }
+    /* --------------------------Who am i area---------------------- */
+    .whoAmIArea-area{
+        width: 1266px;
+    }
+
 
 
     /* -----------------------------about-area--------------------- */
@@ -240,12 +248,53 @@
   bottom: -50px;
 
 }
+    /* --------------------------Who am i area---------------------- */
+    .whoAmIArea-area{
+        width:283%;
+        height: 855px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .whoAmIArea-container1{
+        position: absolute;
+        top: 384px;
+        left: 150px;
+        right: 0;
+        margin: auto;
+    }
+    .whoAmIArea-container1>h2{
+        font-size: 100px;
+    }
+    .whoAmIArea-container1>h6{
+        position: relative;
+        top: 143px;
+        font-size: 60px;
+
+    }
+    .whoAmIArea-container2{
+       display: none;
+    }
+
+    .whoAmIArea-container2>p{
+        font-size: 34px;
+    }
+
+    .whoAmIArea-container3{
+
+        position: absolute;
+        top: 20px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
 
 
 
   /* -----------------------------about-area--------------------- */
   .about-area{
-      border: 2px solid green;
+
     width:283%;
     height: 1600px;
     display: flex;
@@ -647,6 +696,50 @@ bottom: 124px;
 
 }
 
+}
+/* --------------------------Who am i area---------------------- */
+.whoAmIArea-area{
+    width:375%;
+    height: 855px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.whoAmIArea-container1{
+    position: absolute;
+    top: 384px;
+    left: 150px;
+    right: 0;
+    margin: auto;
+}
+.whoAmIArea-container1>h2{
+    font-size: 100px;
+}
+.whoAmIArea-container1>h6{
+    position: relative;
+    top: 143px;
+    font-size: 60px;
+
+}
+.whoAmIArea-container2{
+    display: none;
+}
+
+.whoAmIArea-container2>p{
+    font-size: 34px;
+}
+
+.whoAmIArea-container3{
+
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
 
   /* -----------------------------about-area--------------------- */
   .about-area{
@@ -998,7 +1091,7 @@ font-size: 35px;
        left: 871px;
 
      } */
-}
+
 
 @media all and (max-width: 374px) and (min-width: 320px) {
     /* --------------------------Navbar area---------------------- */
