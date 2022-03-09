@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior:smooth;
+}
 
 body{
     font-family: 'Courier New', Courier, monospace;
@@ -117,7 +120,6 @@ header{
     list-style: none;
     height: 40px;
     width: 60px;
-    /* margin: 6px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -131,7 +133,7 @@ header{
     to{
         transform: scale(1);
     }from{
-        transform: scale(1.2);
+        transform: scale(2);
     }
 }
 .social-img>li{
@@ -143,62 +145,6 @@ header{
     color: white;
 }
     
-.social-img>li::before,
-.social-img>li::after{
-    position: absolute;
-    content: '';
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    transition: all .3s linear;
-}
-
-.social-img>li:nth-child(1):before{
-    border: 2px solid #1DA1F2;
-}
-.social-img>li:nth-child(1)::after{
-    background:  #1DA1F2;
-}
-
-
-.social-img>li:nth-child(2):before{
-    border: 2px solid #060adb;
-}
-.social-img>li:nth-child(2)::after{
-    background:  #060adb;
-}
-
-
-.social-img>li:nth-child(3):before{
-    border: 2px solid #1DA1F2;
-}
-.social-img>li:nth-child(3)::after{
-    background:  #1DA1F2;
-}
-
-
-.social-img>li:nth-child(4):before{
-    border: 2px solid #E1306C;
-}
-.social-img>li:nth-child(4)::after{
-    background:  #E1306C;
-}
-
-.social-img>li:nth-child(5):before{
-    border: 2px solid #888686;
-}
-
-.social-img>li:nth-child(5)::after{
-    background:  #888686;
-}
-
-.social-img>li::after{
-    opacity: 0;
-    z-index: -1;
-}
-.social-img>li:hover:after{
-    opacity: 1;
-}
 
 .btn-hire-me{
     position: absolute;
@@ -237,21 +183,25 @@ header{
 /* --------------------------------------about-area----------------------------------- */
 
 .about-section{
-    position: relative;
-  
-    width: 100%;
+    position: relative;width: 100%;
     height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 0;
+    transform: scale(0.9);
+    transition:  all 2s ease-in-out;
 }
 .about-left{
-  
     width: 40%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.active{
+    opacity: 1;
+    transform: scale(1);
 }
 .about-left>img{
     position: absolute;
@@ -259,13 +209,14 @@ header{
 }
 .about-right{
     position: relative;
-  
+
     width: 50%;
-  
+
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 .about-right>h1{
     position: absolute;
@@ -306,6 +257,13 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    opacity: 0;
+    transform: scale(0.9);
+    transition:  all 2s ease-in-out;
+}
+.active1{
+    opacity: 1;
+    transform: scale(1);
 }
 
 .education-topic{
@@ -462,9 +420,16 @@ header{
     position: relative;
     width: 99vw;
     height: 600px;
-  
-    
+    opacity: 0;
+    transform: scale(0.9);
+    transition:  all 2s ease-in-out;
 }
+.active2{
+    opacity: 1;
+    transform: scale(1);
+
+}
+
 .skill-area h2{
     position: absolute;
     font-size: 180px;
@@ -567,7 +532,16 @@ header{
     align-items: center;
     justify-content: space-evenly;
     background: black;
+    opacity: 0;
+    transform: scale(0.9);
+    transition:  all 2s ease-in-out;
 }
+.active3{
+    opacity: 1;
+    transform: scale(1);
+
+}
+
 .service-area h2{
     position: absolute;
     font-size: 150px;
@@ -631,6 +605,14 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 0;
+    transform: scale(0.9);
+    transition:  all 2s ease-in-out;
+}
+.active4{
+    opacity: 1;
+    transform: scale(1);
+
 }
 
 .projects-area h2{
@@ -725,6 +707,16 @@ header{
     position: absolute;
     left: 200px;
     font-size: 25px;
+}
+.project-box a{
+    color: wheat;
+    background: black;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px 20px;
 }
 #carParkingImg{
     background: url("../images/Parking.jpg");
