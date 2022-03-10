@@ -120,7 +120,7 @@ $("#btn-addToCart").click(function () {
 
 
 });
-function addToCart() {
+function addToCart(){
     let oId=$("#txtOrderID").val();
     let cName=$("#txtPCustName").val();
     let iID=$("#cmbItemIDs").val();
@@ -136,9 +136,7 @@ function addToCart() {
             let newTotal=iPrice*newQty;
             cartDb[i].setcartOQty(newQty);
             cartDb[i].setTotal(newTotal);
-
             return;
-
         }
     }
     cartDb.push(new CartDTO(oId,cName,iID,iName,iPrice,orderQty,total));
@@ -176,9 +174,9 @@ $('#txtDiscount').on('keyup', function () {
     }
 });
 
-$("#addToCartTable>tr").click(function () {
-        console.log($(this).val());
-    });
+// $("#addToCartTable>tr").click(function () {
+//         console.log($(this).val());
+//     });
 
 
 function placeOrder() {
