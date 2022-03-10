@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/styles/style.css" rel="stylesheet">
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Dhananjaya's Stores</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 position-absolute top-50 end-0 translate-middle">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Customer.html">Customer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Item.html">Item</a>
+              </li>
+            
+            </ul>
+        
+          </div>
+        </div>
+      </nav>
+</header>
+<body>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-xl-6 col-xxl-6 Item-form">
+                <h1>Item Manage</h1>
+                <div class="row">
+                     <div class="mb-3 input-group-sm col-6">
+                            <label for="formGroupExampleInput" class="form-label">Item Code</label>
+                           <input type="text" class="form-control" id="formGroupExampleInput">
+                    </div>
+                <div class="mb-3 input-group-sm col-6">
+                        <label for="formGroupExampleInput" class="form-label">Item Name</label>
+                       <input type="text" class="form-control" id="formGroupExampleInput1">
+                </div>
+                <div class="mb-3 input-group-sm col-6">
+                    <label for="formGroupExampleInput" class="form-label">Qty On Hand</label>
+                   <input type="text" class="form-control" id="formGroupExampleInput2">
+                </div>
+                <div class="mb-3 input-group-sm col-6">
+                    <label for="formGroupExampleInput" class="form-label">Unit Price</label>
+                   <input type="text" class="form-control" id="formGroupExampleInput3">
+                </div>
+                <button type="button" class="btn btn-primary col-2 mx-3">Save</button>
+                <button type="button" class="btn btn-success col-2 mx-3">Update</button>
+                <button type="button" class="btn btn-danger col-2">Delete</button>
+                    
+                </div>
+            </div>
+
+            <div class="col-12 col-xl-6 col-xxl-6 Item-search">
+                <h1>Item Search</h1>
+                <div class="row">
+                    <div class="col">
+                        <div class="mb-3 input-group-sm col-9 mx-5">
+                            <label for="formGroupExampleInput" class="form-label">Input Item Name/Code Here</label>
+                           <input type="text" class="form-control" id="formGroupExampleInput4">
+                        </div>
+                        <button type="button" class="btn btn-success col-2 mx-5">Search</button>
+                        <div class="col-3 search-selector">
+                            <select class="form-select" aria-label="Default select example">
+                            <option value="1">Name</option>
+                            <option value="2">Code</option>
+                            
+                          </select>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col=12">
+                <br><br>
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th>Item Code</th>
+                        <th>Item Name</th>
+                        <th>QTY</th>
+                        <th>Price</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>I001</td>
+                            <td>Milo</td>
+                            <td>25</td>
+                            <td>75.00</td>
+                        </tr>
+                        <tr>
+                            <td>I002</td>
+                            <td>Yogurt</td>
+                            <td>50</td>
+                            <td>40.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

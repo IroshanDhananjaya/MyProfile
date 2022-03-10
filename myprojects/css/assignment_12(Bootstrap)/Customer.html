@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/styles/style.css" rel="stylesheet">
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Dhananjaya's Stores</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 position-absolute top-50 end-0 translate-middle">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Customer.html">Customer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Item.html">Item</a>
+              </li>
+            
+            </ul>
+        
+          </div>
+        </div>
+      </nav>
+</header>
+<body>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-xl-6 col-xxl-6 customer-form">
+                <h1>Customer Manage</h1>
+                <div class="row">
+                     <div class="mb-3 input-group-sm col-6">
+                            <label for="custID"class="form-label">Customer ID</label>
+                           <input type="text" class="form-control" id="custID">
+                    </div>
+                <div class="mb-3 input-group-sm col-6">
+                        <label for="custName" class="form-label">Customer Name</label>
+                       <input type="text" class="form-control" id="custName">
+                </div>
+                <div class="mb-3 input-group-sm col-6">
+                    <label for="custAddress" class="form-label">Customer Address</label>
+                   <input type="text" class="form-control" id="custAddress">
+                </div>
+                <div class="mb-3 input-group-sm col-6">
+                    <label for="custSalary" class="form-label">Customer Salary</label>
+                   <input type="text" class="form-control" id="custSalary">
+                </div>
+                <button type="button" class="btn btn-primary col-2 mx-3" id="btnSave">Save</button>
+                <button type="button" class="btn btn-success col-2 mx-3">Update</button>
+                <button type="button" class="btn btn-danger col-2">Delete</button>
+                    
+                </div>
+            </div>
+
+            <div class="col-12 col-xl-6 col-xxl-6 customer-search">
+                <h1>Customer Search</h1>
+                <div class="row">
+                    <div class="col">
+                        <div class="mb-3 input-group-sm col-9 mx-5">
+                            <label for="formGroupExampleInput4" class="form-label">Input Customer Name/Code Here</label>
+                           <input type="text" class="form-control" id="formGroupExampleInput4">
+                        </div>
+                        <button type="button" class="btn btn-success col-2 mx-5">Search</button>
+                        <div class="col-3 search-selector">
+                            <select class="form-select" aria-label="Default select example">
+                            <option value="1">Name</option>
+                            <option value="2">ID</option>
+                            
+                          </select>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col=12">
+                <br><br>
+                <table class="table table-hover" id="customer-Table">
+                    <thead>
+                    <tr>
+                        <th>Customer NIC</th>
+                         <th>Customer Name</th>
+                        <th>Customer Address</th>
+                        <th>Salary</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <script src="assets/jquery/jquery-3.6.0.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+
+</body>
+</html>
