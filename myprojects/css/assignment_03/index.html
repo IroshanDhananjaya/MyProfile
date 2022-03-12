@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case-3</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body>section:nth-child(1){
+        height: 100vh;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    body>section:nth-child(2){
+        height: 100vh;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    body>section:nth-child(3){
+        height: 100vh;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    section:nth-child(1)>div:nth-child(1){
+        position: fixed;
+        border: 1vw solid #b59185;
+        border-radius: 100%;
+        width: 20vw;
+        height: 20vw;
+
+        z-index: 1;
+    }
+    section:nth-child(1)>div:nth-child(2){
+        position: fixed;
+        border: 1vw solid #fa0000;
+        border-radius: 100%;
+        width: 18.3vw;
+        height: 18.3vw;
+
+        z-index: 1;
+    }
+    section:nth-child(1)>div:nth-child(3){
+        background-color: #8e307a;
+        border-radius: 100%;
+        width: 16.5vw;
+        height: 16.5vw;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        color: white;
+        font-size: 1.3vw;
+        font-weight: 500;
+        font-family: Ubuntu;
+
+        z-index: -1;
+    }
+    section:nth-child(2)>div{
+        background-color: #0098bc;
+        border-radius: 100%;
+        width: 16.5vw;
+        height: 16.5vw;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        color: white;
+        font-size: 1.3vw;
+        font-weight: 500;
+        font-family: Ubuntu;
+
+        z-index: -1;
+    }
+
+    section:nth-child(3)>div{
+        background-color: #ff635a;
+        border-radius: 100%;
+        width: 16.5vw;
+        height: 16.5vw;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        color: white;
+        font-size: 1.3vw;
+        font-weight: 500;
+        font-family: Ubuntu;
+
+        z-index: -1;
+    }
+
+
+</style>
+
+<body>
+<section>
+    <div></div>
+    <div></div>
+    <div>Hello</div>
+</section>
+
+<section>
+    <div>Welcome To</div>
+</section>
+
+<section>
+    <div>Institute Of Software Engineering</div>
+</section>
+
+</body>
+</html>
