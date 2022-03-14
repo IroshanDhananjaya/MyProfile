@@ -1,6 +1,9 @@
 let fullTotal;
+<<<<<<< HEAD
+=======
 $("#cmbCustIDs").append(`<option>None</option>`);
 $("#cmbItemIDs").append(`<option>None</option>`);
+>>>>>>> 5ba1d883ea648c7ee45e26dbe51b390045943719
 function generateOrderID() {
     try {
         let lastOId = orderDb[orderDb.length - 1].getOrderID();
@@ -21,7 +24,10 @@ function forOrder(){
     generateOrderID();
     loadCustIDs();
     loadItemIds();
+<<<<<<< HEAD
+=======
     $("#btn-purchase-order").attr('disabled', true);
+>>>>>>> 5ba1d883ea648c7ee45e26dbe51b390045943719
 }
 /*-------Customer Details---------------*/
 function loadCustIDs(){
@@ -104,7 +110,11 @@ function qtyUpdate() {
 $("#btn-addToCart").click(function () {
     let qty=parseInt($('#txtPItemQty').val());
     let Oqty=parseInt($('#txtOrderQty').val());
+<<<<<<< HEAD
+    console.log(qty,Oqty);
+=======
 
+>>>>>>> 5ba1d883ea648c7ee45e26dbe51b390045943719
     if($('#txtOrderQty').val()!=""){
         if(qty<Oqty){
             alert("Not Available This QTY");
@@ -114,7 +124,10 @@ $("#btn-addToCart").click(function () {
             addToCart();
             loadCart();
             getTotal();
+<<<<<<< HEAD
+=======
             $("#btn-purchase-order").attr('disabled', false);
+>>>>>>> 5ba1d883ea648c7ee45e26dbe51b390045943719
             $("#txtPItemName,#txtPPrice,#txtPItemQty,#txtOrderQty").val("")
         }
     }else{
@@ -124,7 +137,11 @@ $("#btn-addToCart").click(function () {
 
 
 });
+<<<<<<< HEAD
+function addToCart() {
+=======
 function addToCart(){
+>>>>>>> 5ba1d883ea648c7ee45e26dbe51b390045943719
     let oId=$("#txtOrderID").val();
     let cName=$("#txtPCustName").val();
     let iID=$("#cmbItemIDs").val();
@@ -140,7 +157,13 @@ function addToCart(){
             let newTotal=iPrice*newQty;
             cartDb[i].setcartOQty(newQty);
             cartDb[i].setTotal(newTotal);
+<<<<<<< HEAD
+
             return;
+
+=======
+            return;
+>>>>>>> 5ba1d883ea648c7ee45e26dbe51b390045943719
         }
     }
     cartDb.push(new CartDTO(oId,cName,iID,iName,iPrice,orderQty,total));
@@ -178,9 +201,15 @@ $('#txtDiscount').on('keyup', function () {
     }
 });
 
+<<<<<<< HEAD
+$("#addToCartTable>tr").click(function () {
+        console.log($(this).val());
+    });
+=======
 // $("#addToCartTable>tr").click(function () {
 //         console.log($(this).val());
 //     });
+>>>>>>> 5ba1d883ea648c7ee45e26dbe51b390045943719
 
 
 function placeOrder() {
@@ -210,7 +239,10 @@ $("#btn-purchase-order").click(function () {
     generateOrderID();
     cartDb.splice(0,cartDb.length);
     $('#addToCartTable').empty();
+<<<<<<< HEAD
+=======
     $("#btn-purchase-order").attr('disabled', true);
+>>>>>>> 5ba1d883ea648c7ee45e26dbe51b390045943719
     $("#txtPItemName,#txtPPrice,#txtPItemQty,#txtOrderQty,#txtPCustSalary,#txtPCustName,#txtPCustAddress").val("")
 });
 $("#txtCash").on('keyup', function (eventOb) {

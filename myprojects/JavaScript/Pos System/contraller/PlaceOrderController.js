@@ -1,4 +1,6 @@
 let fullTotal;
+$("#cmbCustIDs").append(`<option>None</option>`);
+$("#cmbItemIDs").append(`<option>None</option>`);
 function generateOrderID() {
     try {
         let lastOId = orderDb[orderDb.length - 1].getOrderID();
@@ -19,6 +21,7 @@ function forOrder(){
     generateOrderID();
     loadCustIDs();
     loadItemIds();
+    $("#btn-purchase-order").attr('disabled', true);
 }
 /*-------Customer Details---------------*/
 function loadCustIDs(){
@@ -101,7 +104,7 @@ function qtyUpdate() {
 $("#btn-addToCart").click(function () {
     let qty=parseInt($('#txtPItemQty').val());
     let Oqty=parseInt($('#txtOrderQty').val());
-    console.log(qty,Oqty);
+
     if($('#txtOrderQty').val()!=""){
         if(qty<Oqty){
             alert("Not Available This QTY");
@@ -111,6 +114,7 @@ $("#btn-addToCart").click(function () {
             addToCart();
             loadCart();
             getTotal();
+            $("#btn-purchase-order").attr('disabled', false);
             $("#txtPItemName,#txtPPrice,#txtPItemQty,#txtOrderQty").val("")
         }
     }else{
@@ -120,7 +124,7 @@ $("#btn-addToCart").click(function () {
 
 
 });
-function addToCart() {
+function addToCart(){
     let oId=$("#txtOrderID").val();
     let cName=$("#txtPCustName").val();
     let iID=$("#cmbItemIDs").val();
@@ -136,9 +140,7 @@ function addToCart() {
             let newTotal=iPrice*newQty;
             cartDb[i].setcartOQty(newQty);
             cartDb[i].setTotal(newTotal);
-
             return;
-
         }
     }
     cartDb.push(new CartDTO(oId,cName,iID,iName,iPrice,orderQty,total));
@@ -176,9 +178,9 @@ $('#txtDiscount').on('keyup', function () {
     }
 });
 
-$("#addToCartTable>tr").click(function () {
-        console.log($(this).val());
-    });
+// $("#addToCartTable>tr").click(function () {
+//         console.log($(this).val());
+//     });
 
 
 function placeOrder() {
@@ -208,6 +210,7 @@ $("#btn-purchase-order").click(function () {
     generateOrderID();
     cartDb.splice(0,cartDb.length);
     $('#addToCartTable').empty();
+    $("#btn-purchase-order").attr('disabled', true);
     $("#txtPItemName,#txtPPrice,#txtPItemQty,#txtOrderQty,#txtPCustSalary,#txtPCustName,#txtPCustAddress").val("")
 });
 $("#txtCash").on('keyup', function (eventOb) {

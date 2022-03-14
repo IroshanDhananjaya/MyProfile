@@ -115,6 +115,12 @@
         $("#box5").css('background-color',queueColor[index-4]);
         $("#box6").css('background-color',queueColor[index-5]);
         index++;
+<<<<<<< HEAD
+
+
+
+=======
+>>>>>>> 5ba1d883ea648c7ee45e26dbe51b390045943719
     }
     setInterval(color,200);
 </script>

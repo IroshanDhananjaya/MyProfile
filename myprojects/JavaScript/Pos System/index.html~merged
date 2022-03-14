@@ -78,7 +78,10 @@
                 <div class="mb-3 input-group-sm col-12">
                     <label for="cmbCustIDs" class="form-label">Select Customer</label>
                     <select class="form-select " aria-label="Default select example" id="cmbCustIDs"></select>
+<<<<<<< HEAD
+=======
 
+>>>>>>> 5ba1d883ea648c7ee45e26dbe51b390045943719
                 </div>
                 <div class="mb-3 input-group-sm col-12">
                     <label for="txtPCustName" class="form-label">Customer Name</label>
